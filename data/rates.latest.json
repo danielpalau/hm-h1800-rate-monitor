@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:36:18.806Z",
+  "generatedAt": "2026-05-15T20:26:40.020Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -78,8 +78,8 @@
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=15052026&CheckOut=16052026&ad=2&ch=0"
       },
       "extraction": {
-        "hmCandidates": 128,
-        "h1800Candidates": 51
+        "hmCandidates": 127,
+        "h1800Candidates": 32
       },
       "rows": [
         {
@@ -159,7 +159,7 @@
       },
       "extraction": {
         "hmCandidates": 83,
-        "h1800Candidates": 51
+        "h1800Candidates": 32
       },
       "rows": [
         {
@@ -559,7 +559,7 @@
       },
       "extraction": {
         "hmCandidates": 115,
-        "h1800Candidates": 132
+        "h1800Candidates": 113
       },
       "rows": [
         {
