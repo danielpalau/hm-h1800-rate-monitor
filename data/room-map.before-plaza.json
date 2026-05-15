@@ -7,12 +7,7 @@
       "Habitacion sencilla",
       "HABITACION SENCILLA"
     ],
-    "inventory": 7,
-    "plaza": "Superior King",
-    "plaza_aliases": [
-      "Superior King",
-      "SUPERIOR KING"
-    ]
+    "inventory": 7
   },
   {
     "hm": "Suite Patio Doble",
@@ -22,12 +17,7 @@
       "Habitacion doble",
       "HABITACION DOBLE"
     ],
-    "inventory": 4,
-    "plaza": "Superior Doble",
-    "plaza_aliases": [
-      "Superior Doble",
-      "SUPERIOR DOBLE"
-    ]
+    "inventory": 4
   },
   {
     "hm": "Suite Standard Doble",
@@ -37,12 +27,7 @@
       "Habitacion doble",
       "HABITACION DOBLE"
     ],
-    "inventory": 23,
-    "plaza": "Deluxe Doble",
-    "plaza_aliases": [
-      "Deluxe Doble",
-      "DELUXE DOBLE"
-    ]
+    "inventory": 23
   },
   {
     "hm": "Jr Suite",
@@ -53,13 +38,7 @@
       "Gobernador cama king",
       "GOBERNADOR CAMA KING"
     ],
-    "inventory": 2,
-    "plaza": "Junior Suite Doble",
-    "plaza_aliases": [
-      "Junior Suite Doble",
-      "Jr Suite Doble",
-      "JR SUITE DOBLE"
-    ]
+    "inventory": 2
   },
   {
     "hm": "Master Suite",
@@ -70,9 +49,7 @@
       "Gobernador cama king",
       "GOBERNADOR CAMA KING"
     ],
-    "inventory": 2,
-    "plaza": null,
-    "plaza_aliases": []
+    "inventory": 2
   },
   {
     "hm": "Handicap",
@@ -82,11 +59,6 @@
       "Habitacion sencilla",
       "HABITACION SENCILLA"
     ],
-    "inventory": 1,
-    "plaza": "Superior Doble",
-    "plaza_aliases": [
-      "Superior Doble",
-      "SUPERIOR DOBLE"
-    ]
+    "inventory": 1
   }
 ]

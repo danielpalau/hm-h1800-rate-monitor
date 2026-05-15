@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grupo ECCO · Comparativo Tarifario</title>
+  <style>
+    :root{
+      --brown:#3b261f;
+      --gold:#c9962e;
+      --cream:#fbf6ed;
+      --ink:#2f211d;
+      --muted:#786e66;
+      --line:#e5d6c3;
+      --ok:#237a4b;
+      --bad:#aa3b2f;
+      --card:#fffaf3;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:linear-gradient(180deg,#fffaf3,#f5ecdf);
+      color:var(--ink);
+    }
+    header{
+      background:var(--brown);
+      color:#fff;
+      padding:16px 28px;
+      border-bottom:4px solid var(--gold);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .mark{
+      width:42px;height:42px;border-radius:50%;
+      border:2px solid var(--gold);
+      display:grid;place-items:center;
+      color:var(--gold);
+      font-weight:900;
+    }
+    .pill{
+      border:1px solid rgba(255,255,255,.25);
+      border-radius:999px;
+      padding:8px 14px;
+      color:#f5e6d2;
+      font-size:14px;
+    }
+    main{padding:48px 56px}
+    h1{
+      font-family:Georgia,serif;
+      font-size:56px;
+      line-height:.95;
+      margin:0 0 14px;
+      color:var(--brown);
+      letter-spacing:.02em;
+      text-transform:uppercase;
+    }
+    .subtitle{
+      color:var(--muted);
+      font-size:18px;
+      max-width:980px;
+      line-height:1.45;
+      margin-bottom:32px;
+    }
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(5,minmax(160px,1fr));
+      gap:18px;
+      margin:28px 0;
+    }
+    .card{
+      background:white;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:20px;
+      box-shadow:0 12px 35px rgba(59,38,31,.08);
+    }
+    .label{
+      font-size:12px;
+      color:var(--muted);
+      text-transform:uppercase;
+      font-weight:800;
+      letter-spacing:.18em;
+    }
+    .value{
+      font-size:32px;
+      font-weight:900;
+      margin-top:6px;
+      color:var(--brown);
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 360px;
+      gap:24px;
+      align-items:start;
+    }
+    section{
+      background:rgba(255,255,255,.82);
+      border:1px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 18px 40px rgba(59,38,31,.08);
+    }
+    section h2{
+      margin:0;
+      padding:20px 24px;
+      border-bottom:1px solid var(--line);
+      font-size:18px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--brown);
+    }
+    .table-wrap{overflow:auto;max-height:680px}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th{
+      text-align:left;
+      padding:14px 16px;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      font-size:11px;
+      background:#fbf4ea;
+      border-bottom:1px solid var(--line);
+      position:sticky;
+      top:0;
+      z-index:1;
+    }
+    td{
+      padding:14px 16px;
+      border-bottom:1px solid #eadfce;
+      vertical-align:top;
+    }
+    .room{font-weight:800;color:var(--brown)}
+    .sub{color:var(--muted);font-size:12px;margin-top:3px}
+    .money{font-weight:900;white-space:nowrap}
+    .missing{color:#9b9188}
+    .ok{color:var(--ok);font-weight:800}
+    .bad{color:var(--bad);font-weight:800}
+    .side-list{padding:18px;display:grid;gap:12px}
+    .alert{
+      background:#fffaf6;
+      border:1px solid var(--line);
+      border-left:6px solid var(--gold);
+      border-radius:14px;
+      padding:14px;
+    }
+    .alert strong{display:block;margin-bottom:4px;color:var(--brown)}
+    .small{font-size:12px;color:var(--muted)}
+    @media(max-width:1100px){
+      main{padding:30px 20px}
+      .cards{grid-template-columns:1fr 1fr}
+      .grid{grid-template-columns:1fr}
+      h1{font-size:40px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><div class="mark">GE</div><div>Grupo ECCO · Rate Intelligence</div></div>
+    <div class="pill">HM vía Cloudbeds · H1800 vía Omnibees · Plaza vía ZaviaERP</div>
+  </header>
+
+  <main>
+    <h1>Comparativo Tarifario</h1>
+    <div class="subtitle">
+      Dashboard de inteligencia tarifaria para comparar Hotel Marielena contra Hacienda 1800 y Hotel Plaza por fecha y habitación equivalente.
+    </div>
+
+    <div class="cards">
+      <div class="card"><div class="label">Última extracción</div><div class="value" id="generatedAt">—</div></div>
+      <div class="card"><div class="label">Fechas revisadas</div><div class="value" id="daysCount">—</div></div>
+      <div class="card"><div class="label">Tipos HM</div><div class="value" id="roomTypes">—</div></div>
+      <div class="card"><div class="label">HM promedio</div><div class="value" id="hmAvg">—</div></div>
+      <div class="card"><div class="label">Alertas</div><div class="value" id="alertsCount">—</div></div>
+    </div>
+
+    <div class="grid">
+      <section>
+        <h2>Comparativo por habitación</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Habitación HM</th>
+                <th>HM</th>
+                <th>Hacienda 1800</th>
+                <th>Hotel Plaza</th>
+                <th>Dif. vs H1800</th>
+                <th>Dif. vs Plaza</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>Oportunidades</h2>
+        <div class="side-list" id="alerts"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const fmt = new Intl.NumberFormat('es-MX', { style:'currency', currency:'MXN', maximumFractionDigits:0 });
+    const dateFmt = new Intl.DateTimeFormat('es-MX', { weekday:'short', day:'numeric', month:'short' });
+
+    function money(v){ return v == null ? '<span class="missing">—</span>' : `<span class="money">${fmt.format(v)}</span>`; }
+    function pct(v){ return v == null ? '—' : `${Math.round(v*100)}%`; }
+    function statusClass(v){ return v === 'high_discrepancy' ? 'bad' : v === 'ok' ? 'ok' : 'missing'; }
+
+    fetch('data/rates.latest.json?ts=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        const days = data.days || [];
+        const allRows = days.flatMap(d => d.rows || []);
+
+        document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
+        document.getElementById('daysCount').textContent = days.length;
+        document.getElementById('roomTypes').textContent = new Set(allRows.map(r => r.hm)).size;
+
+        const hmVals = allRows.map(r => r.hmDirect).filter(v => v != null);
+        const hmAvg = hmVals.length ? hmVals.reduce((a,b)=>a+b,0)/hmVals.length : null;
+        document.getElementById('hmAvg').textContent = hmAvg ? fmt.format(hmAvg) : '—';
+
+        const alerts = allRows.filter(r => r.status === 'high_discrepancy' || r.statusPlaza === 'high_discrepancy');
+        document.getElementById('alertsCount').textContent = alerts.length;
+
+        const tbody = document.getElementById('rows');
+        tbody.innerHTML = allRows.map(r => `
+          <tr>
+            <td>${dateFmt.format(new Date(r.date + 'T12:00:00'))}<div class="sub">${r.date}</div></td>
+            <td><div class="room">${r.hm}</div><div class="sub">Hotel Marielena</div></td>
+            <td>${money(r.hmDirect)}</td>
+            <td>
+              <div class="room">${r.h1800 || '—'}</div>
+              <div>${money(r.h1800Direct)}</div>
+            </td>
+            <td>
+              <div class="room">${r.plaza || '—'}</div>
+              <div>${money(r.plazaDirect)}</div>
+            </td>
+            <td>
+              <div>${money(r.diff)}</div>
+              <div class="${statusClass(r.status)}">${pct(r.pct)}</div>
+            </td>
+            <td>
+              <div>${money(r.diffPlaza)}</div>
+              <div class="${statusClass(r.statusPlaza)}">${pct(r.pctPlaza)}</div>
+            </td>
+          </tr>
+        `).join('');
+
+        const alertBox = document.getElementById('alerts');
+        const topAlerts = alerts.slice(0, 12);
+        alertBox.innerHTML = topAlerts.length ? topAlerts.map(r => `
+          <div class="alert">
+            <strong>${r.date} · ${r.hm}</strong>
+            <div class="small">HM ${r.hmDirect ? fmt.format(r.hmDirect) : '—'} · H1800 ${r.h1800Direct ? fmt.format(r.h1800Direct) : '—'} · Plaza ${r.plazaDirect ? fmt.format(r.plazaDirect) : '—'}</div>
+            <div class="small">Dif. Plaza: ${r.diffPlaza == null ? '—' : fmt.format(r.diffPlaza)} (${pct(r.pctPlaza)})</div>
+          </div>
+        `).join('') : '<div class="alert"><strong>Sin alertas</strong><div class="small">No hay discrepancias relevantes en los datos cargados.</div></div>';
+      })
+      .catch(err => {
+        document.getElementById('rows').innerHTML = `<tr><td colspan="7">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
+      });
+  </script>
+</body>
+</html>

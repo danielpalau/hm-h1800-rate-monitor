@@ -71,8 +71,12 @@
       "GOBERNADOR CAMA KING"
     ],
     "inventory": 2,
-    "plaza": null,
-    "plaza_aliases": []
+    "plaza": "Junior Suite Doble",
+    "plaza_aliases": [
+      "Junior Suite Doble",
+      "Jr Suite Doble",
+      "JR SUITE DOBLE"
+    ]
   },
   {
     "hm": "Handicap",
@@ -83,10 +87,11 @@
       "HABITACION SENCILLA"
     ],
     "inventory": 1,
-    "plaza": "Superior Doble",
+    "plaza": "Junior Suite Doble",
     "plaza_aliases": [
-      "Superior Doble",
-      "SUPERIOR DOBLE"
+      "Junior Suite Doble",
+      "Jr Suite Doble",
+      "JR SUITE DOBLE"
     ]
   }
 ]
