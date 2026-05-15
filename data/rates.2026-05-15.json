@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T22:19:34.031Z",
+  "generatedAt": "2026-05-15T22:55:44.428Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -99,6 +99,1358 @@
   ],
   "days": [
     {
+      "date": "2026-05-15",
+      "checkOut": "2026-05-16",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-15&checkout=2026-05-16&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=15052026&CheckOut=16052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 128,
+        "h1800Candidates": 32
+      },
+      "rows": [
+        {
+          "date": "2026-05-15",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-15",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-15",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-15",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-15",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-15",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "checkOut": "2026-05-17",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-16&checkout=2026-05-17&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=16052026&CheckOut=17052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 83,
+        "h1800Candidates": 32
+      },
+      "rows": [
+        {
+          "date": "2026-05-16",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-16",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-16",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-16",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-16",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-16",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "checkOut": "2026-05-18",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-17&checkout=2026-05-18&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=17052026&CheckOut=18052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-17",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-17",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-17",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-17",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-17",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-17",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "checkOut": "2026-05-19",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-18&checkout=2026-05-19&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=18052026&CheckOut=19052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-18",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-18",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-18",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-18",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-18",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-18",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "checkOut": "2026-05-20",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-19&checkout=2026-05-20&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=19052026&CheckOut=20052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-19",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-19",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-19",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-19",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-19",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-19",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "checkOut": "2026-05-21",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-20&checkout=2026-05-21&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=20052026&CheckOut=21052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 115,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-20",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-20",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-20",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-20",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-20",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-20",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "checkOut": "2026-05-22",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-21&checkout=2026-05-22&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=21052026&CheckOut=22052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 115,
+        "h1800Candidates": 113
+      },
+      "rows": [
+        {
+          "date": "2026-05-21",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-21",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-21",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-21",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-21",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-21",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "checkOut": "2026-05-23",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-22&checkout=2026-05-23&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=22052026&CheckOut=23052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 128,
+        "h1800Candidates": 50
+      },
+      "rows": [
+        {
+          "date": "2026-05-22",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 3153,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-22",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-22",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-22",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-22",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-22",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": 3153,
+          "diff": -353,
+          "pct": -0.11195686647637171,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "checkOut": "2026-05-24",
+      "rows": [
+        {
+          "date": "2026-05-23",
+          "hm": "Suite Patio King",
+          "h1800": "Habitación sencilla",
+          "inventory": 7,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        },
+        {
+          "date": "2026-05-23",
+          "hm": "Suite Patio Doble",
+          "h1800": "Habitación doble",
+          "inventory": 4,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        },
+        {
+          "date": "2026-05-23",
+          "hm": "Suite Standard Doble",
+          "h1800": "Habitación doble",
+          "inventory": 23,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        },
+        {
+          "date": "2026-05-23",
+          "hm": "Jr Suite",
+          "h1800": "Suite Gobernador cama king",
+          "inventory": 2,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        },
+        {
+          "date": "2026-05-23",
+          "hm": "Master Suite",
+          "h1800": "Suite Gobernador cama king",
+          "inventory": 2,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        },
+        {
+          "date": "2026-05-23",
+          "hm": "Handicap",
+          "h1800": "Habitación sencilla",
+          "inventory": 1,
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "error"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "checkOut": "2026-05-25",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-24&checkout=2026-05-25&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=24052026&CheckOut=25052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 1,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-24",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-24",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-24",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-24",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": null,
+          "h1800Direct": 3850,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-24",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": null,
+          "h1800Direct": 3850,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-24",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "checkOut": "2026-05-26",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-25&checkout=2026-05-26&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=25052026&CheckOut=26052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 93,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-25",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-25",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-25",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-25",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-25",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": null,
+          "h1800Direct": 3850,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-25",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "checkOut": "2026-05-27",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-26&checkout=2026-05-27&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=26052026&CheckOut=27052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-26",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-26",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-26",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-26",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-26",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-26",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "checkOut": "2026-05-28",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-27&checkout=2026-05-28&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=27052026&CheckOut=28052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 12
+      },
+      "rows": [
+        {
+          "date": "2026-05-27",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-27",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-27",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-27",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-27",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-27",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "checkOut": "2026-05-29",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-28&checkout=2026-05-29&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=28052026&CheckOut=29052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 115,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-28",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-28",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-28",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-28",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-28",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-28",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "checkOut": "2026-05-30",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-29&checkout=2026-05-30&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=29052026&CheckOut=30052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 127,
+        "h1800Candidates": 119
+      },
+      "rows": [
+        {
+          "date": "2026-05-29",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 3153,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-29",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-29",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-29",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-29",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-29",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": 3153,
+          "diff": -353,
+          "pct": -0.11195686647637171,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "checkOut": "2026-05-31",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-30&checkout=2026-05-31&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=30052026&CheckOut=31052026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 115,
+        "h1800Candidates": 99
+      },
+      "rows": [
+        {
+          "date": "2026-05-30",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-30",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-30",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-30",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-30",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-30",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "checkOut": "2026-06-01",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-05-31&checkout=2026-06-01&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=31052026&CheckOut=01062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 115,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-05-31",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-05-31",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-31",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-31",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-05-31",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-05-31",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": null,
+          "h1800Direct": 2387,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
       "date": "2026-06-01",
       "checkOut": "2026-06-02",
       "urls": {
@@ -177,7 +1529,972 @@
           "status": "high_discrepancy"
         }
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "checkOut": "2026-06-03",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-02&checkout=2026-06-03&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=02062026&CheckOut=03062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-02",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-02",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-02",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-02",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-02",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-02",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "checkOut": "2026-06-04",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-03&checkout=2026-06-04&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=03062026&CheckOut=04062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-03",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-03",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-03",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-03",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-03",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-03",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "checkOut": "2026-06-05",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-04&checkout=2026-06-05&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=04062026&CheckOut=05062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-04",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-04",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-04",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-04",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-04",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-04",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "checkOut": "2026-06-06",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-05&checkout=2026-06-06&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=05062026&CheckOut=06062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 139
+      },
+      "rows": [
+        {
+          "date": "2026-06-05",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-05",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-05",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-05",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-05",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-05",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": 3153,
+          "diff": -353,
+          "pct": -0.11195686647637171,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "checkOut": "2026-06-07",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-06&checkout=2026-06-07&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=06062026&CheckOut=07062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 119
+      },
+      "rows": [
+        {
+          "date": "2026-06-06",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2950,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        },
+        {
+          "date": "2026-06-06",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-06",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-06",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-06",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-06",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "checkOut": "2026-06-08",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-07&checkout=2026-06-08&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=07062026&CheckOut=08062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-07",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-07",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-07",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-07",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-07",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-07",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "checkOut": "2026-06-09",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-08&checkout=2026-06-09&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=08062026&CheckOut=09062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-08",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-08",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-08",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-08",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-08",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-08",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "checkOut": "2026-06-10",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-09&checkout=2026-06-10&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=09062026&CheckOut=10062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-09",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-09",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-09",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-09",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-09",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-09",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "checkOut": "2026-06-11",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-10&checkout=2026-06-11&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=10062026&CheckOut=11062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-10",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-10",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-10",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-10",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-10",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-10",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "checkOut": "2026-06-12",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-11&checkout=2026-06-12&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=11062026&CheckOut=12062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 138,
+        "h1800Candidates": 132
+      },
+      "rows": [
+        {
+          "date": "2026-06-11",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-11",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2700,
+          "h1800Direct": 2387,
+          "diff": 313,
+          "pct": 0.13112693757855048,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-11",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2150,
+          "h1800Direct": 2387,
+          "diff": -237,
+          "pct": -0.09928780896522832,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-11",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2700,
+          "h1800Direct": 3850,
+          "diff": -1150,
+          "pct": -0.2987012987012987,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-11",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4000,
+          "h1800Direct": 3850,
+          "diff": 150,
+          "pct": 0.03896103896103896,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-11",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 1810,
+          "h1800Direct": 2387,
+          "diff": -577,
+          "pct": -0.2417260159195643,
+          "status": "high_discrepancy"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "checkOut": "2026-06-13",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-12&checkout=2026-06-13&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=12062026&CheckOut=13062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 140,
+        "h1800Candidates": 139
+      },
+      "rows": [
+        {
+          "date": "2026-06-12",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-12",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-12",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-12",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-12",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-12",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": 3153,
+          "diff": -353,
+          "pct": -0.11195686647637171,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "checkOut": "2026-06-14",
+      "urls": {
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-13&checkout=2026-06-14&rooms=1&adults=2&children=0",
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=13062026&CheckOut=14062026&ad=2&ch=0"
+      },
+      "extraction": {
+        "hmCandidates": 140,
+        "h1800Candidates": 139
+      },
+      "rows": [
+        {
+          "date": "2026-06-13",
+          "hm": "Suite Patio King",
+          "inventory": 7,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-13",
+          "hm": "Suite Patio Doble",
+          "inventory": 4,
+          "h1800": "Habitación doble",
+          "hmDirect": 2950,
+          "h1800Direct": 3153,
+          "diff": -203,
+          "pct": -0.06438312718046305,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-13",
+          "hm": "Suite Standard Doble",
+          "inventory": 23,
+          "h1800": "Habitación doble",
+          "hmDirect": 2500,
+          "h1800Direct": 3153,
+          "diff": -653,
+          "pct": -0.20710434506818903,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-13",
+          "hm": "Jr Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 2950,
+          "h1800Direct": 4740,
+          "diff": -1790,
+          "pct": -0.37763713080168776,
+          "status": "high_discrepancy"
+        },
+        {
+          "date": "2026-06-13",
+          "hm": "Master Suite",
+          "inventory": 2,
+          "h1800": "Suite Gobernador cama king",
+          "hmDirect": 4650,
+          "h1800Direct": 4740,
+          "diff": -90,
+          "pct": -0.0189873417721519,
+          "status": "ok"
+        },
+        {
+          "date": "2026-06-13",
+          "hm": "Handicap",
+          "inventory": 1,
+          "h1800": "Habitación sencilla",
+          "hmDirect": 2800,
+          "h1800Direct": 3153,
+          "diff": -353,
+          "pct": -0.11195686647637171,
+          "status": "ok"
+        }
+      ]
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "date": "2026-05-23",
+      "message": "page.goto: net::ERR_NETWORK_CHANGED at https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=23052026&CheckOut=24052026&ad=2&ch=0\nCall log:\n\u001b[2m  - navigating to \"https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=23052026&CheckOut=24052026&ad=2&ch=0\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  ]
 }
