@@ -1,0 +1,3332 @@
+[
+  {
+    "date": "2026-05-15",
+    "checkOut": "2026-05-16",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-15&checkOutDate=2026-05-16&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-15&checkInsTo=2026-05-15&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-15%22%2C%22checkOutDate%22%3A%222026-05-16%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-15%22%2C%22checkOutDate%22%3A%222026-05-16%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-15&checkInsTo=2026-05-15&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-15&checkInsTo=2026-05-15&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-16",
+    "checkOut": "2026-05-17",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-16&checkOutDate=2026-05-17&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-16&checkInsTo=2026-05-16&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-16%22%2C%22checkOutDate%22%3A%222026-05-17%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-16%22%2C%22checkOutDate%22%3A%222026-05-17%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-16&checkInsTo=2026-05-16&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-16&checkInsTo=2026-05-16&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-17",
+    "checkOut": "2026-05-18",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-17&checkOutDate=2026-05-18&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-17&checkInsTo=2026-05-17&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-17%22%2C%22checkOutDate%22%3A%222026-05-18%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-17%22%2C%22checkOutDate%22%3A%222026-05-18%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-17&checkInsTo=2026-05-17&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-17&checkInsTo=2026-05-17&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-18",
+    "checkOut": "2026-05-19",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-18&checkOutDate=2026-05-19&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-18&checkInsTo=2026-05-18&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-18%22%2C%22checkOutDate%22%3A%222026-05-19%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-18%22%2C%22checkOutDate%22%3A%222026-05-19%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-18&checkInsTo=2026-05-18&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-18&checkInsTo=2026-05-18&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-19",
+    "checkOut": "2026-05-20",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-19&checkOutDate=2026-05-20&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-19&checkInsTo=2026-05-19&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-19%22%2C%22checkOutDate%22%3A%222026-05-20%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-19%22%2C%22checkOutDate%22%3A%222026-05-20%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-19&checkInsTo=2026-05-19&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-19&checkInsTo=2026-05-19&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-20",
+    "checkOut": "2026-05-21",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-20&checkOutDate=2026-05-21&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-20%22%2C%22checkOutDate%22%3A%222026-05-21%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-20&checkInsTo=2026-05-20&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-20%22%2C%22checkOutDate%22%3A%222026-05-21%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-20&checkInsTo=2026-05-20&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-20&checkInsTo=2026-05-20&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-21",
+    "checkOut": "2026-05-22",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-21&checkOutDate=2026-05-22&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-21%22%2C%22checkOutDate%22%3A%222026-05-22%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-21&checkInsTo=2026-05-21&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-21%22%2C%22checkOutDate%22%3A%222026-05-22%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-21&checkInsTo=2026-05-21&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-21&checkInsTo=2026-05-21&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-22",
+    "checkOut": "2026-05-23",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-22&checkOutDate=2026-05-23&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-22%22%2C%22checkOutDate%22%3A%222026-05-23%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-22&checkInsTo=2026-05-22&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-22%22%2C%22checkOutDate%22%3A%222026-05-23%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-22&checkInsTo=2026-05-22&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-22&checkInsTo=2026-05-22&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-23",
+    "checkOut": "2026-05-24",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-23&checkOutDate=2026-05-24&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-23%22%2C%22checkOutDate%22%3A%222026-05-24%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-23&checkInsTo=2026-05-23&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-23%22%2C%22checkOutDate%22%3A%222026-05-24%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-23&checkInsTo=2026-05-23&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-23&checkInsTo=2026-05-23&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-24",
+    "checkOut": "2026-05-25",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-24&checkOutDate=2026-05-25&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-24%22%2C%22checkOutDate%22%3A%222026-05-25%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-24&checkInsTo=2026-05-24&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-24%22%2C%22checkOutDate%22%3A%222026-05-25%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-24&checkInsTo=2026-05-24&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-24&checkInsTo=2026-05-24&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-25",
+    "checkOut": "2026-05-26",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-25&checkOutDate=2026-05-26&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-25%22%2C%22checkOutDate%22%3A%222026-05-26%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-25&checkInsTo=2026-05-25&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-25%22%2C%22checkOutDate%22%3A%222026-05-26%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-25&checkInsTo=2026-05-25&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-25&checkInsTo=2026-05-25&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-26",
+    "checkOut": "2026-05-27",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-26&checkOutDate=2026-05-27&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-26%22%2C%22checkOutDate%22%3A%222026-05-27%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-26&checkInsTo=2026-05-26&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-26%22%2C%22checkOutDate%22%3A%222026-05-27%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-26&checkInsTo=2026-05-26&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-26&checkInsTo=2026-05-26&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-27",
+    "checkOut": "2026-05-28",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-27&checkOutDate=2026-05-28&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-27&checkInsTo=2026-05-27&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-27%22%2C%22checkOutDate%22%3A%222026-05-28%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-27%22%2C%22checkOutDate%22%3A%222026-05-28%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-27&checkInsTo=2026-05-27&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-27&checkInsTo=2026-05-27&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-28",
+    "checkOut": "2026-05-29",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-28&checkOutDate=2026-05-29&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-28%22%2C%22checkOutDate%22%3A%222026-05-29%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-28&checkInsTo=2026-05-28&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-28%22%2C%22checkOutDate%22%3A%222026-05-29%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-28&checkInsTo=2026-05-28&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-28&checkInsTo=2026-05-28&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-29",
+    "checkOut": "2026-05-30",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-29&checkOutDate=2026-05-30&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-29%22%2C%22checkOutDate%22%3A%222026-05-30%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-29&checkInsTo=2026-05-29&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-29%22%2C%22checkOutDate%22%3A%222026-05-30%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-29&checkInsTo=2026-05-29&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-29&checkInsTo=2026-05-29&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-30",
+    "checkOut": "2026-05-31",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-30&checkOutDate=2026-05-31&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-05-31",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-30%22%2C%22checkOutDate%22%3A%222026-05-31%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-30&checkInsTo=2026-05-30&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-30%22%2C%22checkOutDate%22%3A%222026-05-31%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-30&checkInsTo=2026-05-30&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-30&checkInsTo=2026-05-30&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-05-31",
+    "checkOut": "2026-06-01",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-05-31&checkOutDate=2026-06-01&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-05-31%22%2C%22checkOutDate%22%3A%222026-06-01%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-31&checkInsTo=2026-05-31&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-05-31%22%2C%22checkOutDate%22%3A%222026-06-01%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-31&checkInsTo=2026-05-31&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-05-31&checkInsTo=2026-05-31&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-01",
+    "checkOut": "2026-06-02",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-01&checkOutDate=2026-06-02&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-01&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-01%22%2C%22checkOutDate%22%3A%222026-06-02%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-01%22%2C%22checkOutDate%22%3A%222026-06-02%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-01&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-01&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-02",
+    "checkOut": "2026-06-03",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-02&checkOutDate=2026-06-03&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-02%22%2C%22checkOutDate%22%3A%222026-06-03%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-02&checkInsTo=2026-06-02&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-02%22%2C%22checkOutDate%22%3A%222026-06-03%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-02&checkInsTo=2026-06-02&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-02&checkInsTo=2026-06-02&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-03",
+    "checkOut": "2026-06-04",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-03&checkOutDate=2026-06-04&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-03%22%2C%22checkOutDate%22%3A%222026-06-04%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-03&checkInsTo=2026-06-03&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-03%22%2C%22checkOutDate%22%3A%222026-06-04%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-03&checkInsTo=2026-06-03&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-03&checkInsTo=2026-06-03&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-04",
+    "checkOut": "2026-06-05",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-04&checkOutDate=2026-06-05&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-04%22%2C%22checkOutDate%22%3A%222026-06-05%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-04&checkInsTo=2026-06-04&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-04%22%2C%22checkOutDate%22%3A%222026-06-05%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-04&checkInsTo=2026-06-04&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-04&checkInsTo=2026-06-04&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-05",
+    "checkOut": "2026-06-06",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-05&checkOutDate=2026-06-06&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-05&checkInsTo=2026-06-05&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-05%22%2C%22checkOutDate%22%3A%222026-06-06%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-05%22%2C%22checkOutDate%22%3A%222026-06-06%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-05&checkInsTo=2026-06-05&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-05&checkInsTo=2026-06-05&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-06",
+    "checkOut": "2026-06-07",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-06&checkOutDate=2026-06-07&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-06%22%2C%22checkOutDate%22%3A%222026-06-07%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-06&checkInsTo=2026-06-06&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-06%22%2C%22checkOutDate%22%3A%222026-06-07%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-06&checkInsTo=2026-06-06&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-06&checkInsTo=2026-06-06&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-07",
+    "checkOut": "2026-06-08",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-07&checkOutDate=2026-06-08&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-07%22%2C%22checkOutDate%22%3A%222026-06-08%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-07&checkInsTo=2026-06-07&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-07%22%2C%22checkOutDate%22%3A%222026-06-08%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-07&checkInsTo=2026-06-07&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-07&checkInsTo=2026-06-07&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-08",
+    "checkOut": "2026-06-09",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-08&checkOutDate=2026-06-09&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-08%22%2C%22checkOutDate%22%3A%222026-06-09%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-08&checkInsTo=2026-06-08&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-08%22%2C%22checkOutDate%22%3A%222026-06-09%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-08&checkInsTo=2026-06-08&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-08&checkInsTo=2026-06-08&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-09",
+    "checkOut": "2026-06-10",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-09&checkOutDate=2026-06-10&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-09%22%2C%22checkOutDate%22%3A%222026-06-10%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-09&checkInsTo=2026-06-09&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-09%22%2C%22checkOutDate%22%3A%222026-06-10%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-09&checkInsTo=2026-06-09&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-09&checkInsTo=2026-06-09&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-10",
+    "checkOut": "2026-06-11",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-10&checkOutDate=2026-06-11&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-10%22%2C%22checkOutDate%22%3A%222026-06-11%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-10&checkInsTo=2026-06-10&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-10%22%2C%22checkOutDate%22%3A%222026-06-11%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-10&checkInsTo=2026-06-10&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-10&checkInsTo=2026-06-10&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-11",
+    "checkOut": "2026-06-12",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-11&checkOutDate=2026-06-12&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-11%22%2C%22checkOutDate%22%3A%222026-06-12%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-11&checkInsTo=2026-06-11&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-11%22%2C%22checkOutDate%22%3A%222026-06-12%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-11&checkInsTo=2026-06-11&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-11&checkInsTo=2026-06-11&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-12",
+    "checkOut": "2026-06-13",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-12&checkOutDate=2026-06-13&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-12%22%2C%22checkOutDate%22%3A%222026-06-13%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-12&checkInsTo=2026-06-12&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-12%22%2C%22checkOutDate%22%3A%222026-06-13%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-12&checkInsTo=2026-06-12&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-12&checkInsTo=2026-06-12&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "date": "2026-06-13",
+    "checkOut": "2026-06-14",
+    "url": "https://direct-book.com/properties/hotelmarielenadirect?checkInDate=2026-06-13&checkOutDate=2026-06-14&currency=MXN&items%5B0%5D%5Badults%5D=2&items%5B0%5D%5Bchildren%5D=0&items%5B0%5D%5Binfants%5D=0&locale=es&trackPage=yes",
+    "quoteSets": [],
+    "roomTypes": [
+      {
+        "uuid": "209021",
+        "name": "Suite Patio King",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209020",
+        "name": "Suite Patio Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209030",
+        "name": "Suite Standard Doble",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209027",
+        "name": "Suite Junior",
+        "category": "suite",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209022",
+        "name": "Suite Master",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      },
+      {
+        "uuid": "209024",
+        "name": "Suite Handicapped",
+        "category": "room",
+        "minAvailability": 0,
+        "maxOccupancy": 2,
+        "ratesCount": 0,
+        "rateNames": [],
+        "rawRatesPreview": []
+      }
+    ],
+    "responses": [
+      {
+        "type": "quoteSets",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=quoteSets&variables=%7B%22propertyId%22%3A30164%2C%22promocode%22%3A%22%22%2C%22checkInDate%22%3A%222026-06-13%22%2C%22checkOutDate%22%3A%222026-06-14%22%2C%22adults%22%3A2%2C%22children%22%3A0%2C%22infants%22%3A0%2C%22currencyFrom%22%3A%22MXN%22%2C%22currencyTo%22%3A%22MXN%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221012a6203854357e44786380240eefad6b2ad863aee6ba79748c81a851f29217%22%7D%7D",
+        "count": 0
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-01&checkInsTo=2026-06-30",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-13&checkInsTo=2026-06-13&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "roomTypes",
+        "status": 200,
+        "url": "https://direct-book.com/api/graphql?operationName=roomTypes&variables=%7B%22channelCode%22%3A%22hotelmarielenadirect%22%2C%22checkInDate%22%3A%222026-06-13%22%2C%22checkOutDate%22%3A%222026-06-14%22%2C%22locale%22%3A%22es%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%228021345a2e1f993717b1960097489b456a6b2dc136990b6f919adba1b1fe2c1f%22%7D%7D",
+        "count": 6
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-13&checkInsTo=2026-06-13&los=1",
+        "bodyLength": 14,
+        "bodyPreview": "{\"result\":[]}\n"
+      },
+      {
+        "type": "availability",
+        "status": 200,
+        "url": "https://direct-book.com/api/properties/hotelmarielenadirect/availability?checkInsFrom=2026-06-13&checkInsTo=2026-06-13&los=1",
+        "bodyLength": 0,
+        "bodyPreview": ""
+      }
+    ],
+    "errors": []
+  }
+]

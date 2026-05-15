@@ -1,0 +1,18 @@
+{
+  "name": "hm-h1800-real-rate-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-browsers": "playwright install --with-deps chromium",
+    "scrape": "node src/scrape-rates.js",
+    "serve": "npx http-server . -p 8080"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

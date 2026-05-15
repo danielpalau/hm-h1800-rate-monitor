@@ -1,0 +1,64 @@
+[
+  {
+    "hm": "Suite Patio King",
+    "h1800": "Habitación sencilla",
+    "h1800_aliases": [
+      "Habitación sencilla",
+      "Habitacion sencilla",
+      "HABITACION SENCILLA"
+    ],
+    "inventory": 7
+  },
+  {
+    "hm": "Suite Patio Doble",
+    "h1800": "Habitación doble",
+    "h1800_aliases": [
+      "Habitación doble",
+      "Habitacion doble",
+      "HABITACION DOBLE"
+    ],
+    "inventory": 4
+  },
+  {
+    "hm": "Suite Standard Doble",
+    "h1800": "Habitación doble",
+    "h1800_aliases": [
+      "Habitación doble",
+      "Habitacion doble",
+      "HABITACION DOBLE"
+    ],
+    "inventory": 23
+  },
+  {
+    "hm": "Jr Suite",
+    "h1800": "Suite Gobernador cama king",
+    "h1800_aliases": [
+      "Suite Gobernador cama king",
+      "Suite Gobernador",
+      "Gobernador cama king",
+      "GOBERNADOR CAMA KING"
+    ],
+    "inventory": 2
+  },
+  {
+    "hm": "Master Suite",
+    "h1800": "Suite Gobernador cama king",
+    "h1800_aliases": [
+      "Suite Gobernador cama king",
+      "Suite Gobernador",
+      "Gobernador cama king",
+      "GOBERNADOR CAMA KING"
+    ],
+    "inventory": 2
+  },
+  {
+    "hm": "Handicap",
+    "h1800": "Habitación sencilla",
+    "h1800_aliases": [
+      "Habitación sencilla",
+      "Habitacion sencilla",
+      "HABITACION SENCILLA"
+    ],
+    "inventory": 1
+  }
+]

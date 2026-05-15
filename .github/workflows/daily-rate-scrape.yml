@@ -1,0 +1,30 @@
+name: Daily HM vs H1800 Rate Scrape
+
+on:
+  schedule:
+    # 6:00 AM Mexico City approximately. Adjust during DST if needed.
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run scrape
+      - name: Commit data
+        run: |
+          git config user.name "rate-bot"
+          git config user.email "rate-bot@example.com"
+          git add data debug || true
+          git commit -m "Daily rate scrape" || echo "No changes"
+          git push || true
