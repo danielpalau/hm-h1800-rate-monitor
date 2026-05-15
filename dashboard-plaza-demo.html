@@ -156,6 +156,34 @@
     }
     .alert strong{display:block;margin-bottom:4px;color:var(--brown)}
     .small{font-size:12px;color:var(--muted)}
+    .date-tabs{
+      display:flex;
+      gap:8px;
+      overflow-x:auto;
+      max-width:720px;
+      padding-bottom:2px;
+    }
+    .date-tab{
+      border:1px solid var(--line);
+      background:#fffaf3;
+      color:var(--brown);
+      border-radius:999px;
+      padding:9px 14px;
+      font-weight:800;
+      cursor:pointer;
+      white-space:nowrap;
+      font-size:13px;
+      transition:.15s ease;
+    }
+    .date-tab:hover{
+      border-color:var(--gold);
+      transform:translateY(-1px);
+    }
+    .date-tab.active{
+      background:var(--brown);
+      color:#fff;
+      border-color:var(--brown);
+    }
     @media(max-width:1100px){
       main{padding:30px 20px}
       .cards{grid-template-columns:1fr 1fr}
@@ -186,7 +214,10 @@
 
     <div class="grid">
       <section>
-        <h2>Comparativo por habitación</h2>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding:18px 24px;flex-wrap:wrap;">
+          <h2 style="border-bottom:none;padding:0;">Comparativo por habitación</h2>
+          <div id="dateTabs" class="date-tabs"></div>
+        </div>
         <div class="table-wrap">
           <table>
             <thead>
@@ -212,7 +243,7 @@
     </div>
   </main>
 
-  <script>
+    <script>
     const fmt = new Intl.NumberFormat('es-MX', { style:'currency', currency:'MXN', maximumFractionDigits:0 });
     const dateFmt = new Intl.DateTimeFormat('es-MX', { weekday:'short', day:'numeric', month:'short' });
 
@@ -220,57 +251,97 @@
     function pct(v){ return v == null ? '—' : `${Math.round(v*100)}%`; }
     function statusClass(v){ return v === 'high_discrepancy' ? 'bad' : v === 'ok' ? 'ok' : 'missing'; }
 
+    let selectedDate = null;
+
+    function renderDateTabs(days){
+      const tabs = document.getElementById('dateTabs');
+      tabs.innerHTML = days.map(d => {
+        const label = dateFmt.format(new Date(d.date + 'T12:00:00'));
+        const active = d.date === selectedDate ? 'active' : '';
+        return `<button class="date-tab ${active}" data-date="${d.date}">${label}</button>`;
+      }).join('');
+
+      tabs.querySelectorAll('.date-tab').forEach(btn => {
+        btn.addEventListener('click', () => {
+          selectedDate = btn.dataset.date;
+          renderDashboard(window.__rateData);
+        });
+      });
+    }
+
+    function renderRows(day){
+      const rows = day?.rows || [];
+      const tbody = document.getElementById('rows');
+
+      tbody.innerHTML = rows.map(r => `
+        <tr>
+          <td>${dateFmt.format(new Date(r.date + 'T12:00:00'))}<div class="sub">${r.date}</div></td>
+          <td><div class="room">${r.hm}</div><div class="sub">Hotel Marielena</div></td>
+          <td>${money(r.hmDirect)}</td>
+          <td>
+            <div class="room">${r.h1800 || '—'}</div>
+            <div>${money(r.h1800Direct)}</div>
+          </td>
+          <td>
+            <div class="room">${r.plaza || '—'}</div>
+            <div>${money(r.plazaDirect)}</div>
+          </td>
+          <td>
+            <div>${money(r.diff)}</div>
+            <div class="${statusClass(r.status)}">${pct(r.pct)}</div>
+          </td>
+          <td>
+            <div>${money(r.diffPlaza)}</div>
+            <div class="${statusClass(r.statusPlaza)}">${pct(r.pctPlaza)}</div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function renderAlerts(day){
+      const rows = day?.rows || [];
+      const alerts = rows.filter(r => r.status === 'high_discrepancy' || r.statusPlaza === 'high_discrepancy');
+      const alertBox = document.getElementById('alerts');
+
+      document.getElementById('alertsCount').textContent = alerts.length;
+
+      alertBox.innerHTML = alerts.length ? alerts.map(r => `
+        <div class="alert">
+          <strong>${r.date} · ${r.hm}</strong>
+          <div class="small">HM ${r.hmDirect ? fmt.format(r.hmDirect) : '—'} · H1800 ${r.h1800Direct ? fmt.format(r.h1800Direct) : '—'} · Plaza ${r.plazaDirect ? fmt.format(r.plazaDirect) : '—'}</div>
+          <div class="small">Dif. H1800: ${r.diff == null ? '—' : fmt.format(r.diff)} (${pct(r.pct)})</div>
+          <div class="small">Dif. Plaza: ${r.diffPlaza == null ? '—' : fmt.format(r.diffPlaza)} (${pct(r.pctPlaza)})</div>
+        </div>
+      `).join('') : '<div class="alert"><strong>Sin alertas</strong><div class="small">No hay discrepancias relevantes para esta fecha.</div></div>';
+    }
+
+    function renderDashboard(data){
+      const days = data.days || [];
+      if (!days.length) return;
+
+      if (!selectedDate) selectedDate = days[0].date;
+
+      const allRows = days.flatMap(d => d.rows || []);
+      const selectedDay = days.find(d => d.date === selectedDate) || days[0];
+
+      document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
+      document.getElementById('daysCount').textContent = days.length;
+      document.getElementById('roomTypes').textContent = new Set(allRows.map(r => r.hm)).size;
+
+      const hmVals = allRows.map(r => r.hmDirect).filter(v => v != null);
+      const hmAvg = hmVals.length ? hmVals.reduce((a,b)=>a+b,0)/hmVals.length : null;
+      document.getElementById('hmAvg').textContent = hmAvg ? fmt.format(hmAvg) : '—';
+
+      renderDateTabs(days);
+      renderRows(selectedDay);
+      renderAlerts(selectedDay);
+    }
+
     fetch('data/rates.latest.json?ts=' + Date.now())
       .then(r => r.json())
       .then(data => {
-        const days = data.days || [];
-        const allRows = days.flatMap(d => d.rows || []);
-
-        document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
-        document.getElementById('daysCount').textContent = days.length;
-        document.getElementById('roomTypes').textContent = new Set(allRows.map(r => r.hm)).size;
-
-        const hmVals = allRows.map(r => r.hmDirect).filter(v => v != null);
-        const hmAvg = hmVals.length ? hmVals.reduce((a,b)=>a+b,0)/hmVals.length : null;
-        document.getElementById('hmAvg').textContent = hmAvg ? fmt.format(hmAvg) : '—';
-
-        const alerts = allRows.filter(r => r.status === 'high_discrepancy' || r.statusPlaza === 'high_discrepancy');
-        document.getElementById('alertsCount').textContent = alerts.length;
-
-        const tbody = document.getElementById('rows');
-        tbody.innerHTML = allRows.map(r => `
-          <tr>
-            <td>${dateFmt.format(new Date(r.date + 'T12:00:00'))}<div class="sub">${r.date}</div></td>
-            <td><div class="room">${r.hm}</div><div class="sub">Hotel Marielena</div></td>
-            <td>${money(r.hmDirect)}</td>
-            <td>
-              <div class="room">${r.h1800 || '—'}</div>
-              <div>${money(r.h1800Direct)}</div>
-            </td>
-            <td>
-              <div class="room">${r.plaza || '—'}</div>
-              <div>${money(r.plazaDirect)}</div>
-            </td>
-            <td>
-              <div>${money(r.diff)}</div>
-              <div class="${statusClass(r.status)}">${pct(r.pct)}</div>
-            </td>
-            <td>
-              <div>${money(r.diffPlaza)}</div>
-              <div class="${statusClass(r.statusPlaza)}">${pct(r.pctPlaza)}</div>
-            </td>
-          </tr>
-        `).join('');
-
-        const alertBox = document.getElementById('alerts');
-        const topAlerts = alerts.slice(0, 12);
-        alertBox.innerHTML = topAlerts.length ? topAlerts.map(r => `
-          <div class="alert">
-            <strong>${r.date} · ${r.hm}</strong>
-            <div class="small">HM ${r.hmDirect ? fmt.format(r.hmDirect) : '—'} · H1800 ${r.h1800Direct ? fmt.format(r.h1800Direct) : '—'} · Plaza ${r.plazaDirect ? fmt.format(r.plazaDirect) : '—'}</div>
-            <div class="small">Dif. Plaza: ${r.diffPlaza == null ? '—' : fmt.format(r.diffPlaza)} (${pct(r.pctPlaza)})</div>
-          </div>
-        `).join('') : '<div class="alert"><strong>Sin alertas</strong><div class="small">No hay discrepancias relevantes en los datos cargados.</div></div>';
+        window.__rateData = data;
+        renderDashboard(data);
       })
       .catch(err => {
         document.getElementById('rows').innerHTML = `<tr><td colspan="7">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
