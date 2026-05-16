@@ -49,6 +49,7 @@ jobs:
           mkdir -p public
           cp dashboard-real.html public/index.html
           cp dashboard-real.html public/dashboard-real.html
+          cp dashboard-plaza-demo.html public/dashboard-plaza-demo.html
           cp -R data public/data
           cp -R debug public/debug || true
           cp README.md public/README.md || true
