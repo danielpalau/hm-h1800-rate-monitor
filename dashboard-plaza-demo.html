@@ -6,15 +6,20 @@
   <title>Grupo ECCO · Comparativo Tarifario</title>
   <style>
     :root{
-      --brown:#3b261f;
-      --gold:#c9962e;
-      --cream:#fbf6ed;
-      --ink:#2f211d;
-      --muted:#786e66;
-      --line:#e5d6c3;
-      --ok:#237a4b;
-      --bad:#aa3b2f;
-      --card:#fffaf3;
+      --brown:#174C3A;
+      --gold:#C79A3B;
+      --cream:#F6EFE4;
+      --ink:#2D2A26;
+      --muted:#756B61;
+      --line:#E5D8C5;
+      --ok:#237A4B;
+      --bad:#A94438;
+      --card:#FFFCF6;
+      --ecco-green:#174C3A;
+      --ecco-green-2:#2F6B4F;
+      --ecco-sand:#F6EFE4;
+      --ecco-earth:#4A3328;
+      --ecco-clay:#A75D3A;
     }
     *{box-sizing:border-box}
     body{
@@ -24,7 +29,7 @@
       color:var(--ink);
     }
     header{
-      background:var(--brown);
+      background:linear-gradient(90deg,var(--ecco-green),#0f3328);
       color:#fff;
       padding:16px 28px;
       border-bottom:4px solid var(--gold);
@@ -42,11 +47,11 @@
       text-transform:uppercase;
     }
     .mark{
-      width:42px;height:42px;border-radius:50%;
+      width:52px;height:52px;border-radius:50%;
       border:2px solid var(--gold);
       display:grid;place-items:center;
       color:var(--gold);
-      font-weight:900;
+      font-weight:900;font-size:11px;
     }
     .pill{
       border:1px solid rgba(255,255,255,.25);
@@ -58,11 +63,11 @@
     main{padding:48px 56px}
     h1{
       font-family:Georgia,serif;
-      font-size:56px;
+      font-size:54px;
       line-height:.95;
       margin:0 0 14px;
       color:var(--brown);
-      letter-spacing:.02em;
+      letter-spacing:.01em;
       text-transform:uppercase;
     }
     .subtitle{
@@ -150,7 +155,7 @@
     .alert{
       background:#fffaf6;
       border:1px solid var(--line);
-      border-left:6px solid var(--gold);
+      border-left:6px solid var(--ecco-green-2);
       border-radius:14px;
       padding:14px;
     }
@@ -180,9 +185,10 @@
       transform:translateY(-1px);
     }
     .date-tab.active{
-      background:var(--brown);
+      background:var(--ecco-green);
       color:#fff;
-      border-color:var(--brown);
+      border-color:var(--ecco-green);
+      box-shadow:0 8px 18px rgba(23,76,58,.18);
     }
     @media(max-width:1100px){
       main{padding:30px 20px}
@@ -194,14 +200,14 @@
 </head>
 <body>
   <header>
-    <div class="brand"><div class="mark">GE</div><div>Grupo ECCO · Rate Intelligence</div></div>
+    <div class="brand"><div class="mark">ECCO</div><div>Grupo ECCO · Inteligencia Tarifaria</div></div>
     <div class="pill">HM vía Cloudbeds · H1800 vía Omnibees · Plaza vía ZaviaERP</div>
   </header>
 
   <main>
     <h1>Comparativo Tarifario</h1>
     <div class="subtitle">
-      Dashboard de inteligencia tarifaria para comparar Hotel Marielena contra Hacienda 1800 y Hotel Plaza por fecha y habitación equivalente.
+      Dashboard de inteligencia tarifaria para fortalecer la estrategia comercial de Grupo ECCO en Cuatro Ciénegas, comparando Hotel Marielena contra hoteles de referencia por fecha y habitación equivalente.
     </div>
 
     <div class="cards">
