@@ -3,7 +3,7 @@ name: Scrape rates and deploy dashboard
 on:
   workflow_dispatch:
   schedule:
-    # Corre diario a las 6:00 a.m. hora de Ciudad de México.
+    # Diario a las 6:00 a.m. hora de Ciudad de México
     - cron: "0 6 * * *"
       timezone: "America/Mexico_City"
   push:
