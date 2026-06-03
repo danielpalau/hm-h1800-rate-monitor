@@ -103,13 +103,11 @@
       "checkOut": "2026-06-04",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-03&checkout=2026-06-04&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=03062026&CheckOut=04062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-03&departure=2026-06-04&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=03062026&CheckOut=04062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 92,
-        "plazaCandidates": 6
+        "h1800Candidates": 92
       },
       "rows": [
         {
@@ -121,12 +119,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-03",
@@ -137,12 +130,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-03",
@@ -153,12 +141,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-03",
@@ -169,12 +152,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-03",
@@ -185,12 +163,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-03",
@@ -201,12 +174,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -215,13 +183,11 @@
       "checkOut": "2026-06-05",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-04&checkout=2026-06-05&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=04062026&CheckOut=05062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-04&departure=2026-06-05&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=04062026&CheckOut=05062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 112,
-        "plazaCandidates": 6
+        "h1800Candidates": 112
       },
       "rows": [
         {
@@ -233,12 +199,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-04",
@@ -249,12 +210,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-04",
@@ -265,12 +221,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-04",
@@ -281,12 +232,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-04",
@@ -297,12 +243,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-04",
@@ -313,12 +254,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -327,13 +263,11 @@
       "checkOut": "2026-06-06",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-05&checkout=2026-06-06&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=05062026&CheckOut=06062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-05&departure=2026-06-06&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=05062026&CheckOut=06062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 166,
-        "h1800Candidates": 99,
-        "plazaCandidates": 6
+        "h1800Candidates": 99
       },
       "rows": [
         {
@@ -345,12 +279,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-05",
@@ -361,12 +290,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-05",
@@ -377,12 +301,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": -326,
-          "pctPlaza": -0.11535739561217269,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-05",
@@ -393,12 +312,7 @@
           "h1800Direct": 4740,
           "diff": -1790,
           "pct": -0.37763713080168776,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": -357,
-          "pctPlaza": -0.10795282733595404,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-05",
@@ -409,12 +323,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-05",
@@ -425,12 +334,7 @@
           "h1800Direct": 3153,
           "diff": -353,
           "pct": -0.11195686647637171,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -439,13 +343,11 @@
       "checkOut": "2026-06-07",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-06&checkout=2026-06-07&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=06062026&CheckOut=07062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-06&departure=2026-06-07&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=06062026&CheckOut=07062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 129,
-        "h1800Candidates": 76,
-        "plazaCandidates": 6
+        "h1800Candidates": 76
       },
       "rows": [
         {
@@ -457,12 +359,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-06",
@@ -473,12 +370,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-06",
@@ -489,12 +381,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": -326,
-          "pctPlaza": -0.11535739561217269,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-06",
@@ -505,12 +392,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-06",
@@ -521,12 +403,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-06",
@@ -537,12 +414,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -551,13 +423,11 @@
       "checkOut": "2026-06-08",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-07&checkout=2026-06-08&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=07062026&CheckOut=08062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-07&departure=2026-06-08&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=07062026&CheckOut=08062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 166,
-        "h1800Candidates": 113,
-        "plazaCandidates": 6
+        "h1800Candidates": 113
       },
       "rows": [
         {
@@ -569,12 +439,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-07",
@@ -585,12 +450,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-07",
@@ -601,12 +461,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-07",
@@ -617,12 +472,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-07",
@@ -633,12 +483,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-07",
@@ -649,12 +494,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -663,13 +503,11 @@
       "checkOut": "2026-06-09",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-08&checkout=2026-06-09&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=08062026&CheckOut=09062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-08&departure=2026-06-09&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=08062026&CheckOut=09062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -681,12 +519,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-08",
@@ -697,12 +530,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-08",
@@ -713,12 +541,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-08",
@@ -729,12 +552,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-08",
@@ -745,12 +563,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-08",
@@ -761,12 +574,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -775,13 +583,11 @@
       "checkOut": "2026-06-10",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-09&checkout=2026-06-10&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=09062026&CheckOut=10062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-09&departure=2026-06-10&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=09062026&CheckOut=10062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -793,12 +599,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-09",
@@ -809,12 +610,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-09",
@@ -825,12 +621,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-09",
@@ -841,12 +632,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-09",
@@ -857,12 +643,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-09",
@@ -873,12 +654,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -887,13 +663,11 @@
       "checkOut": "2026-06-11",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-10&checkout=2026-06-11&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=10062026&CheckOut=11062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-10&departure=2026-06-11&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=10062026&CheckOut=11062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -905,12 +679,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-10",
@@ -921,12 +690,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-10",
@@ -937,12 +701,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-10",
@@ -953,12 +712,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-10",
@@ -969,12 +723,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-10",
@@ -985,12 +734,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -999,13 +743,11 @@
       "checkOut": "2026-06-12",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-11&checkout=2026-06-12&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=11062026&CheckOut=12062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-11&departure=2026-06-12&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=11062026&CheckOut=12062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -1017,12 +759,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-11",
@@ -1033,12 +770,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-11",
@@ -1049,12 +781,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-11",
@@ -1065,12 +792,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-11",
@@ -1081,12 +803,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-11",
@@ -1097,12 +814,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -1111,13 +823,11 @@
       "checkOut": "2026-06-13",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-12&checkout=2026-06-13&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=12062026&CheckOut=13062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-12&departure=2026-06-13&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=12062026&CheckOut=13062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 154,
-        "h1800Candidates": 97,
-        "plazaCandidates": 6
+        "h1800Candidates": 97
       },
       "rows": [
         {
@@ -1129,12 +839,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-12",
@@ -1145,12 +850,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-12",
@@ -1161,12 +861,7 @@
           "h1800Direct": 3153,
           "diff": -653,
           "pct": -0.20710434506818903,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": -326,
-          "pctPlaza": -0.11535739561217269,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-12",
@@ -1177,12 +872,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-12",
@@ -1193,12 +883,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-12",
@@ -1209,12 +894,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         }
       ]
     },
@@ -1223,13 +903,11 @@
       "checkOut": "2026-06-14",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-13&checkout=2026-06-14&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=13062026&CheckOut=14062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-13&departure=2026-06-14&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=13062026&CheckOut=14062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 154,
-        "h1800Candidates": 117,
-        "plazaCandidates": 6
+        "h1800Candidates": 117
       },
       "rows": [
         {
@@ -1241,12 +919,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-13",
@@ -1257,12 +930,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-13",
@@ -1273,12 +941,7 @@
           "h1800Direct": 3153,
           "diff": -653,
           "pct": -0.20710434506818903,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-13",
@@ -1289,12 +952,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-13",
@@ -1305,12 +963,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-13",
@@ -1321,12 +974,7 @@
           "h1800Direct": 3153,
           "diff": -353,
           "pct": -0.11195686647637171,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         }
       ]
     },
@@ -1335,13 +983,11 @@
       "checkOut": "2026-06-15",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-14&checkout=2026-06-15&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=14062026&CheckOut=15062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-14&departure=2026-06-15&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=14062026&CheckOut=15062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -1353,12 +999,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-14",
@@ -1369,12 +1010,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-14",
@@ -1385,12 +1021,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-14",
@@ -1401,12 +1032,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-14",
@@ -1417,12 +1043,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-14",
@@ -1433,12 +1054,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -1447,13 +1063,11 @@
       "checkOut": "2026-06-16",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-15&checkout=2026-06-16&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=15062026&CheckOut=16062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-15&departure=2026-06-16&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=15062026&CheckOut=16062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 152,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -1465,12 +1079,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-15",
@@ -1481,12 +1090,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-15",
@@ -1497,12 +1101,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-15",
@@ -1513,12 +1112,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-15",
@@ -1529,12 +1123,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-15",
@@ -1545,12 +1134,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -1559,13 +1143,11 @@
       "checkOut": "2026-06-17",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-16&checkout=2026-06-17&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=16062026&CheckOut=17062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-16&departure=2026-06-17&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=16062026&CheckOut=17062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 152,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -1577,12 +1159,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-16",
@@ -1593,12 +1170,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-16",
@@ -1609,12 +1181,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-16",
@@ -1625,12 +1192,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-16",
@@ -1641,12 +1203,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-16",
@@ -1657,12 +1214,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -1671,13 +1223,11 @@
       "checkOut": "2026-06-18",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-17&checkout=2026-06-18&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=17062026&CheckOut=18062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-17&departure=2026-06-18&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=17062026&CheckOut=18062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 152,
-        "h1800Candidates": 113,
-        "plazaCandidates": 6
+        "h1800Candidates": 113
       },
       "rows": [
         {
@@ -1689,12 +1239,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-17",
@@ -1705,12 +1250,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-17",
@@ -1721,12 +1261,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-17",
@@ -1737,12 +1272,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-17",
@@ -1753,12 +1283,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-17",
@@ -1769,12 +1294,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -1783,13 +1303,11 @@
       "checkOut": "2026-06-19",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-18&checkout=2026-06-19&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=18062026&CheckOut=19062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-18&departure=2026-06-19&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=18062026&CheckOut=19062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 113,
-        "plazaCandidates": 6
+        "h1800Candidates": 113
       },
       "rows": [
         {
@@ -1801,12 +1319,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-18",
@@ -1817,12 +1330,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-18",
@@ -1833,12 +1341,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-18",
@@ -1849,12 +1352,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-18",
@@ -1865,12 +1363,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-18",
@@ -1881,12 +1374,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -1895,13 +1383,11 @@
       "checkOut": "2026-06-20",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-19&checkout=2026-06-20&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=19062026&CheckOut=20062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-19&departure=2026-06-20&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=19062026&CheckOut=20062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 139,
-        "plazaCandidates": 6
+        "h1800Candidates": 139
       },
       "rows": [
         {
@@ -1913,12 +1399,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-19",
@@ -1929,12 +1410,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-19",
@@ -1945,12 +1421,7 @@
           "h1800Direct": 3153,
           "diff": -653,
           "pct": -0.20710434506818903,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": -326,
-          "pctPlaza": -0.11535739561217269,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-19",
@@ -1961,12 +1432,7 @@
           "h1800Direct": 4740,
           "diff": -1790,
           "pct": -0.37763713080168776,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": -357,
-          "pctPlaza": -0.10795282733595404,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-19",
@@ -1977,12 +1443,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-19",
@@ -1993,12 +1454,7 @@
           "h1800Direct": 3153,
           "diff": -353,
           "pct": -0.11195686647637171,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -2007,13 +1463,11 @@
       "checkOut": "2026-06-21",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-20&checkout=2026-06-21&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=20062026&CheckOut=21062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-20&departure=2026-06-21&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=20062026&CheckOut=21062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 139,
-        "plazaCandidates": 6
+        "h1800Candidates": 139
       },
       "rows": [
         {
@@ -2025,12 +1479,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-20",
@@ -2041,12 +1490,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-20",
@@ -2057,12 +1501,7 @@
           "h1800Direct": 3153,
           "diff": -653,
           "pct": -0.20710434506818903,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-20",
@@ -2073,12 +1512,7 @@
           "h1800Direct": 4740,
           "diff": -1790,
           "pct": -0.37763713080168776,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": -357,
-          "pctPlaza": -0.10795282733595404,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-20",
@@ -2089,12 +1523,7 @@
           "h1800Direct": 4740,
           "diff": -90,
           "pct": -0.0189873417721519,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-20",
@@ -2105,12 +1534,7 @@
           "h1800Direct": 3153,
           "diff": -353,
           "pct": -0.11195686647637171,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         }
       ]
     },
@@ -2119,13 +1543,11 @@
       "checkOut": "2026-06-22",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-21&checkout=2026-06-22&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=21062026&CheckOut=22062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-21&departure=2026-06-22&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=21062026&CheckOut=22062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 140,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -2137,12 +1559,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-21",
@@ -2153,12 +1570,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-21",
@@ -2169,12 +1581,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-21",
@@ -2185,12 +1592,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-21",
@@ -2201,12 +1603,7 @@
           "h1800Direct": 3850,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-21",
@@ -2217,12 +1614,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -2231,13 +1623,11 @@
       "checkOut": "2026-06-23",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-22&checkout=2026-06-23&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=22062026&CheckOut=23062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-22&departure=2026-06-23&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=22062026&CheckOut=23062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 153,
-        "h1800Candidates": 48,
-        "plazaCandidates": 6
+        "h1800Candidates": 48
       },
       "rows": [
         {
@@ -2249,12 +1639,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-22",
@@ -2265,12 +1650,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-22",
@@ -2281,12 +1661,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-22",
@@ -2297,12 +1672,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-22",
@@ -2313,12 +1683,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-22",
@@ -2329,12 +1694,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -2343,13 +1703,11 @@
       "checkOut": "2026-06-24",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-23&checkout=2026-06-24&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=23062026&CheckOut=24062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-23&departure=2026-06-24&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=23062026&CheckOut=24062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 32,
-        "plazaCandidates": 6
+        "h1800Candidates": 32
       },
       "rows": [
         {
@@ -2361,12 +1719,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-23",
@@ -2377,12 +1730,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-23",
@@ -2393,12 +1741,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-23",
@@ -2409,12 +1752,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-23",
@@ -2425,12 +1763,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-23",
@@ -2441,12 +1774,7 @@
           "h1800Direct": null,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "missing_data"
         }
       ]
     },
@@ -2455,13 +1783,11 @@
       "checkOut": "2026-06-25",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-24&checkout=2026-06-25&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=24062026&CheckOut=25062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-24&departure=2026-06-25&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=24062026&CheckOut=25062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 141,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -2473,12 +1799,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-24",
@@ -2489,12 +1810,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-24",
@@ -2505,12 +1821,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-24",
@@ -2521,12 +1832,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-24",
@@ -2537,12 +1843,7 @@
           "h1800Direct": 3850,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-24",
@@ -2553,12 +1854,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -2567,13 +1863,11 @@
       "checkOut": "2026-06-26",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-25&checkout=2026-06-26&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=25062026&CheckOut=26062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-25&departure=2026-06-26&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=25062026&CheckOut=26062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -2585,12 +1879,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-25",
@@ -2601,12 +1890,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-25",
@@ -2617,12 +1901,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-25",
@@ -2633,12 +1912,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-25",
@@ -2649,12 +1923,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-25",
@@ -2665,12 +1934,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -2679,13 +1943,11 @@
       "checkOut": "2026-06-27",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-26&checkout=2026-06-27&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=26062026&CheckOut=27062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-26&departure=2026-06-27&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=26062026&CheckOut=27062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 153,
-        "h1800Candidates": 139,
-        "plazaCandidates": 6
+        "h1800Candidates": 139
       },
       "rows": [
         {
@@ -2697,12 +1959,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-26",
@@ -2713,12 +1970,7 @@
           "h1800Direct": 3153,
           "diff": -203,
           "pct": -0.06438312718046305,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -228,
-          "pctPlaza": -0.07174323473882946,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-26",
@@ -2729,12 +1981,7 @@
           "h1800Direct": 3153,
           "diff": -653,
           "pct": -0.20710434506818903,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": -326,
-          "pctPlaza": -0.11535739561217269,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-26",
@@ -2745,12 +1992,7 @@
           "h1800Direct": 4740,
           "diff": -1790,
           "pct": -0.37763713080168776,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": 147,
-          "pctPlaza": 0.05244381020335355,
-          "statusPlaza": "ok"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-26",
@@ -2761,12 +2003,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-26",
@@ -2777,12 +2014,7 @@
           "h1800Direct": 3153,
           "diff": -353,
           "pct": -0.11195686647637171,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -2791,13 +2023,11 @@
       "checkOut": "2026-06-28",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-27&checkout=2026-06-28&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=27062026&CheckOut=28062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-27&departure=2026-06-28&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=27062026&CheckOut=28062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 168,
-        "h1800Candidates": 139,
-        "plazaCandidates": 6
+        "h1800Candidates": 139
       },
       "rows": [
         {
@@ -2809,12 +2039,7 @@
           "h1800Direct": 3153,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior King",
-          "plazaDirect": 3178,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-27",
@@ -2825,12 +2050,7 @@
           "h1800Direct": 3153,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-27",
@@ -2841,12 +2061,7 @@
           "h1800Direct": 3153,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2826,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-27",
@@ -2857,12 +2072,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 3307,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-27",
@@ -2873,12 +2083,7 @@
           "h1800Direct": 4740,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         },
         {
           "date": "2026-06-27",
@@ -2889,12 +2094,7 @@
           "h1800Direct": 3153,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 3178,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -2903,13 +2103,11 @@
       "checkOut": "2026-06-29",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-28&checkout=2026-06-29&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=28062026&CheckOut=29062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-28&departure=2026-06-29&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=28062026&CheckOut=29062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 166,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -2921,12 +2119,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-28",
@@ -2937,12 +2130,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-28",
@@ -2953,12 +2141,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-28",
@@ -2969,12 +2152,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-28",
@@ -2985,12 +2163,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-28",
@@ -3001,12 +2174,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -3015,13 +2183,11 @@
       "checkOut": "2026-06-30",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-29&checkout=2026-06-30&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=29062026&CheckOut=30062026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-29&departure=2026-06-30&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=29062026&CheckOut=30062026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -3033,12 +2199,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-29",
@@ -3049,12 +2210,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-29",
@@ -3065,12 +2221,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-29",
@@ -3081,12 +2232,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-29",
@@ -3097,12 +2243,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-29",
@@ -3113,12 +2254,7 @@
           "h1800Direct": 2387,
           "diff": -37,
           "pct": -0.015500628403854211,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -343,
-          "pctPlaza": -0.1273672484218344,
-          "statusPlaza": "high_discrepancy"
+          "status": "ok"
         }
       ]
     },
@@ -3127,13 +2263,11 @@
       "checkOut": "2026-07-01",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-30&checkout=2026-07-01&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=30062026&CheckOut=01072026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-30&departure=2026-07-01&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=30062026&CheckOut=01072026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 152,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -3145,12 +2279,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-30",
@@ -3161,12 +2290,7 @@
           "h1800Direct": 2387,
           "diff": 63,
           "pct": 0.026392961876832845,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -243,
-          "pctPlaza": -0.0902339398440401,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-06-30",
@@ -3177,12 +2301,7 @@
           "h1800Direct": 2387,
           "diff": -287,
           "pct": -0.12023460410557185,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -295,
-          "pctPlaza": -0.12317327766179541,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-30",
@@ -3193,12 +2312,7 @@
           "h1800Direct": 3850,
           "diff": -1400,
           "pct": -0.36363636363636365,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -353,
-          "pctPlaza": -0.12593649661077416,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-06-30",
@@ -3209,12 +2323,7 @@
           "h1800Direct": 3850,
           "diff": 150,
           "pct": 0.03896103896103896,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-06-30",
@@ -3225,12 +2334,7 @@
           "h1800Direct": 2387,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -3239,13 +2343,11 @@
       "checkOut": "2026-07-02",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-01&checkout=2026-07-02&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=01072026&CheckOut=02072026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-07-01&departure=2026-07-02&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=01072026&CheckOut=02072026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 152,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -3257,12 +2359,7 @@
           "h1800Direct": 2939,
           "diff": -239,
           "pct": -0.08132017693092888,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": 7,
-          "pctPlaza": 0.0025993316004456,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-07-01",
@@ -3273,12 +2370,7 @@
           "h1800Direct": 2939,
           "diff": -239,
           "pct": -0.08132017693092888,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": 7,
-          "pctPlaza": 0.0025993316004456,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-07-01",
@@ -3289,12 +2381,7 @@
           "h1800Direct": 2939,
           "diff": -789,
           "pct": -0.2684586594079619,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -245,
-          "pctPlaza": -0.1022964509394572,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-07-01",
@@ -3305,12 +2392,7 @@
           "h1800Direct": 4418,
           "diff": -1718,
           "pct": -0.38886373924852874,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -103,
-          "pctPlaza": -0.03674634320371031,
-          "statusPlaza": "ok"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-07-01",
@@ -3321,12 +2403,7 @@
           "h1800Direct": 4418,
           "diff": -418,
           "pct": -0.0946129470348574,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-07-01",
@@ -3337,12 +2414,7 @@
           "h1800Direct": 2939,
           "diff": null,
           "pct": null,
-          "status": "missing_data",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "missing_data"
         }
       ]
     },
@@ -3351,13 +2423,11 @@
       "checkOut": "2026-07-03",
       "urls": {
         "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-02&checkout=2026-07-03&rooms=1&adults=2&children=0",
-        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=02072026&CheckOut=03072026&ad=2&ch=0",
-        "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-07-02&departure=2026-07-03&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
+        "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=02072026&CheckOut=03072026&ad=2&ch=0"
       },
       "extraction": {
         "hmCandidates": 165,
-        "h1800Candidates": 132,
-        "plazaCandidates": 6
+        "h1800Candidates": 132
       },
       "rows": [
         {
@@ -3369,12 +2439,7 @@
           "h1800Direct": 2939,
           "diff": -239,
           "pct": -0.08132017693092888,
-          "status": "ok",
-          "plaza": "Superior King",
-          "plazaDirect": 2693,
-          "diffPlaza": 7,
-          "pctPlaza": 0.0025993316004456,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-07-02",
@@ -3385,12 +2450,7 @@
           "h1800Direct": 2939,
           "diff": -239,
           "pct": -0.08132017693092888,
-          "status": "ok",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": 7,
-          "pctPlaza": 0.0025993316004456,
-          "statusPlaza": "ok"
+          "status": "ok"
         },
         {
           "date": "2026-07-02",
@@ -3401,12 +2461,7 @@
           "h1800Direct": 2939,
           "diff": -789,
           "pct": -0.2684586594079619,
-          "status": "high_discrepancy",
-          "plaza": "Deluxe Doble",
-          "plazaDirect": 2395,
-          "diffPlaza": -245,
-          "pctPlaza": -0.1022964509394572,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-07-02",
@@ -3417,12 +2472,7 @@
           "h1800Direct": 4418,
           "diff": -1718,
           "pct": -0.38886373924852874,
-          "status": "high_discrepancy",
-          "plaza": "Junior Suite Doble",
-          "plazaDirect": 2803,
-          "diffPlaza": -103,
-          "pctPlaza": -0.03674634320371031,
-          "statusPlaza": "ok"
+          "status": "high_discrepancy"
         },
         {
           "date": "2026-07-02",
@@ -3433,12 +2483,7 @@
           "h1800Direct": 4418,
           "diff": -418,
           "pct": -0.0946129470348574,
-          "status": "ok",
-          "plaza": null,
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "status": "ok"
         },
         {
           "date": "2026-07-02",
@@ -3449,24 +2494,10 @@
           "h1800Direct": 2939,
           "diff": -1129,
           "pct": -0.3841442667574005,
-          "status": "high_discrepancy",
-          "plaza": "Superior Doble",
-          "plazaDirect": 2693,
-          "diffPlaza": -883,
-          "pctPlaza": -0.3278871147419235,
-          "statusPlaza": "high_discrepancy"
+          "status": "high_discrepancy"
         }
       ]
     }
   ],
-  "errors": [],
-  "sources": {
-    "hm": "Cloudbeds",
-    "h1800": "Omnibees",
-    "plaza": "ZaviaERP"
-  },
-  "urls": {
-    "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
-  },
-  "plazaAddedAt": "2026-06-03T22:33:53.800Z"
+  "errors": []
 }
