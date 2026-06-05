@@ -21,24 +21,26 @@ function addDays(dateStr, days) {
   return d.toISOString().slice(0, 10);
 }
 
+function nightsBetween(start, end) {
+  if (!start || !end) return null;
+  const a = new Date(start + "T12:00:00");
+  const b = new Date(end + "T12:00:00");
+  const nights = Math.round((b - a) / (1000 * 60 * 60 * 24));
+  return nights > 0 ? nights : null;
+}
+
 function overlapsNight(reservation, date) {
   const start = reservation?.startDate;
   const end = reservation?.endDate;
-
   if (!start || !end) return false;
-
-  // Ocupa la noche si llegó antes o ese día, y sale después de ese día.
   return start <= date && end > date;
 }
 
 function validReservationStatus(status) {
   const s = String(status || "").toLowerCase();
-
-  // Excluimos estados que no deben contar como ocupación real.
   if (s.includes("cancel")) return false;
   if (s.includes("no_show")) return false;
   if (s.includes("noshow")) return false;
-
   return true;
 }
 
@@ -66,7 +68,6 @@ async function fetchAssignments(date) {
 }
 
 async function fetchReservationsForWindow(firstDate, lastDate) {
-  // Traemos reservas que pudieron haber iniciado antes del primer día y seguir hospedadas.
   const checkInFrom = addDays(firstDate, -370);
   const checkInTo = lastDate;
 
@@ -101,7 +102,7 @@ async function fetchReservationsForWindow(firstDate, lastDate) {
     if (data.length < pageSize || newItems === 0) break;
 
     pageNumber++;
-    if (pageNumber > 50) break;
+    if (pageNumber > 80) break;
   }
 
   return reservationsById;
@@ -109,13 +110,12 @@ async function fetchReservationsForWindow(firstDate, lastDate) {
 
 function calculateOccupancy(assignments, reservationsById, date) {
   const occupiedRooms = new Map();
+  const reservationsCounted = new Map();
 
   for (const reservationAssignment of assignments) {
     const reservationID = reservationAssignment.reservationID;
     const reservation = reservationsById.get(reservationID);
 
-    // La corrección clave:
-    // contar solo si esa reserva pernocta en esta fecha.
     if (!reservation || !overlapsNight(reservation, date)) continue;
 
     for (const room of reservationAssignment.assigned || []) {
@@ -132,6 +132,8 @@ function calculateOccupancy(assignments, reservationsById, date) {
         endDate: reservation.endDate
       });
     }
+
+    reservationsCounted.set(reservationID, reservation);
   }
 
   const roomsSoldRaw = occupiedRooms.size;
@@ -145,6 +147,22 @@ function calculateOccupancy(assignments, reservationsById, date) {
     byRoomType[key] = (byRoomType[key] || 0) + 1;
   }
 
+  let revenueOTB = 0;
+
+  for (const reservation of reservationsCounted.values()) {
+    const balance = Number(reservation.balance);
+    const nights = nightsBetween(reservation.startDate, reservation.endDate);
+
+    if (Number.isFinite(balance) && nights) {
+      // Prorrateo simple: balance total / noches de estancia.
+      // Si una reserva tiene varias habitaciones, el balance suele ser total de la reserva.
+      revenueOTB += balance / nights;
+    }
+  }
+
+  const adr = roomsSold > 0 ? revenueOTB / roomsSold : null;
+  const revpar = TOTAL_ROOMS > 0 ? revenueOTB / TOTAL_ROOMS : null;
+
   return {
     roomsTotal: TOTAL_ROOMS,
     roomsSold,
@@ -152,6 +170,10 @@ function calculateOccupancy(assignments, reservationsById, date) {
     roomsAvailable,
     occupancyPct,
     occupancyPctLabel: occupancyPct == null ? null : `${Math.round(occupancyPct * 100)}%`,
+    adr: Number.isFinite(adr) ? Math.round(adr) : null,
+    revpar: Number.isFinite(revpar) ? Math.round(revpar) : null,
+    revenueOTB: Number.isFinite(revenueOTB) ? Math.round(revenueOTB) : null,
+    adrSource: "Cloudbeds API balance prorated by stay night",
     byRoomType
   };
 }
@@ -194,6 +216,9 @@ for (const day of days) {
       roomsAvailable: null,
       occupancyPct: null,
       occupancyPctLabel: null,
+      adr: null,
+      revpar: null,
+      revenueOTB: null,
       byRoomType: {}
     };
   }
@@ -201,4 +226,4 @@ for (const day of days) {
 
 await fs.writeFile(RATES_PATH, JSON.stringify(rates, null, 2));
 
-console.log(`Done. Updated ${RATES_PATH} with corrected Cloudbeds occupancy.`);
+console.log(`Done. Updated ${RATES_PATH} with corrected Cloudbeds occupancy + ADR.`);
