@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T17:24:48.803Z",
+  "generatedAt": "2026-06-05T19:11:31.631Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -102,7 +102,7 @@
       "date": "2026-06-05",
       "checkOut": "2026-06-06",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-05&checkout=2026-06-06&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-05&checkout=2026-06-06",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=05062026&CheckOut=06062026&ad=2&ch=0"
       },
       "extraction": {
@@ -182,7 +182,7 @@
       "date": "2026-06-06",
       "checkOut": "2026-06-07",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-06&checkout=2026-06-07&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-06&checkout=2026-06-07",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=06062026&CheckOut=07062026&ad=2&ch=0"
       },
       "extraction": {
@@ -262,7 +262,7 @@
       "date": "2026-06-07",
       "checkOut": "2026-06-08",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-07&checkout=2026-06-08&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-07&checkout=2026-06-08",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=07062026&CheckOut=08062026&ad=2&ch=0"
       },
       "extraction": {
@@ -342,7 +342,7 @@
       "date": "2026-06-08",
       "checkOut": "2026-06-09",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-08&checkout=2026-06-09&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-08&checkout=2026-06-09",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=08062026&CheckOut=09062026&ad=2&ch=0"
       },
       "extraction": {
@@ -422,7 +422,7 @@
       "date": "2026-06-09",
       "checkOut": "2026-06-10",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-09&checkout=2026-06-10&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-09&checkout=2026-06-10",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=09062026&CheckOut=10062026&ad=2&ch=0"
       },
       "extraction": {
@@ -502,7 +502,7 @@
       "date": "2026-06-10",
       "checkOut": "2026-06-11",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-10&checkout=2026-06-11&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-10&checkout=2026-06-11",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=10062026&CheckOut=11062026&ad=2&ch=0"
       },
       "extraction": {
@@ -582,7 +582,7 @@
       "date": "2026-06-11",
       "checkOut": "2026-06-12",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-11&checkout=2026-06-12&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-11&checkout=2026-06-12",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=11062026&CheckOut=12062026&ad=2&ch=0"
       },
       "extraction": {
@@ -662,7 +662,7 @@
       "date": "2026-06-12",
       "checkOut": "2026-06-13",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-12&checkout=2026-06-13&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-12&checkout=2026-06-13",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=12062026&CheckOut=13062026&ad=2&ch=0"
       },
       "extraction": {
@@ -742,7 +742,7 @@
       "date": "2026-06-13",
       "checkOut": "2026-06-14",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-13&checkout=2026-06-14&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-13&checkout=2026-06-14",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=13062026&CheckOut=14062026&ad=2&ch=0"
       },
       "extraction": {
@@ -822,7 +822,7 @@
       "date": "2026-06-14",
       "checkOut": "2026-06-15",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-14&checkout=2026-06-15&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-14&checkout=2026-06-15",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=14062026&CheckOut=15062026&ad=2&ch=0"
       },
       "extraction": {
@@ -902,7 +902,7 @@
       "date": "2026-06-15",
       "checkOut": "2026-06-16",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-15&checkout=2026-06-16&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-15&checkout=2026-06-16",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=15062026&CheckOut=16062026&ad=2&ch=0"
       },
       "extraction": {
@@ -982,7 +982,7 @@
       "date": "2026-06-16",
       "checkOut": "2026-06-17",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-16&checkout=2026-06-17&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-16&checkout=2026-06-17",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=16062026&CheckOut=17062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1062,7 +1062,7 @@
       "date": "2026-06-17",
       "checkOut": "2026-06-18",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-17&checkout=2026-06-18&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-17&checkout=2026-06-18",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=17062026&CheckOut=18062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1142,7 +1142,7 @@
       "date": "2026-06-18",
       "checkOut": "2026-06-19",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-18&checkout=2026-06-19&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-18&checkout=2026-06-19",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=18062026&CheckOut=19062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1222,7 +1222,7 @@
       "date": "2026-06-19",
       "checkOut": "2026-06-20",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-19&checkout=2026-06-20&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-19&checkout=2026-06-20",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=19062026&CheckOut=20062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1302,7 +1302,7 @@
       "date": "2026-06-20",
       "checkOut": "2026-06-21",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-20&checkout=2026-06-21&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-20&checkout=2026-06-21",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=20062026&CheckOut=21062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1382,7 +1382,7 @@
       "date": "2026-06-21",
       "checkOut": "2026-06-22",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-21&checkout=2026-06-22&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-21&checkout=2026-06-22",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=21062026&CheckOut=22062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1462,7 +1462,7 @@
       "date": "2026-06-22",
       "checkOut": "2026-06-23",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-22&checkout=2026-06-23&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-22&checkout=2026-06-23",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=22062026&CheckOut=23062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1542,7 +1542,7 @@
       "date": "2026-06-23",
       "checkOut": "2026-06-24",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-23&checkout=2026-06-24&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-23&checkout=2026-06-24",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=23062026&CheckOut=24062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1622,7 +1622,7 @@
       "date": "2026-06-24",
       "checkOut": "2026-06-25",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-24&checkout=2026-06-25&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-24&checkout=2026-06-25",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=24062026&CheckOut=25062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1702,7 +1702,7 @@
       "date": "2026-06-25",
       "checkOut": "2026-06-26",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-25&checkout=2026-06-26&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-25&checkout=2026-06-26",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=25062026&CheckOut=26062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1782,7 +1782,7 @@
       "date": "2026-06-26",
       "checkOut": "2026-06-27",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-26&checkout=2026-06-27&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-26&checkout=2026-06-27",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=26062026&CheckOut=27062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1862,7 +1862,7 @@
       "date": "2026-06-27",
       "checkOut": "2026-06-28",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-27&checkout=2026-06-28&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-27&checkout=2026-06-28",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=27062026&CheckOut=28062026&ad=2&ch=0"
       },
       "extraction": {
@@ -1942,7 +1942,7 @@
       "date": "2026-06-28",
       "checkOut": "2026-06-29",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-28&checkout=2026-06-29&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-28&checkout=2026-06-29",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=28062026&CheckOut=29062026&ad=2&ch=0"
       },
       "extraction": {
@@ -2022,7 +2022,7 @@
       "date": "2026-06-29",
       "checkOut": "2026-06-30",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-29&checkout=2026-06-30&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-29&checkout=2026-06-30",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=29062026&CheckOut=30062026&ad=2&ch=0"
       },
       "extraction": {
@@ -2102,7 +2102,7 @@
       "date": "2026-06-30",
       "checkOut": "2026-07-01",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-06-30&checkout=2026-07-01&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-06-30&checkout=2026-07-01",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=30062026&CheckOut=01072026&ad=2&ch=0"
       },
       "extraction": {
@@ -2182,7 +2182,7 @@
       "date": "2026-07-01",
       "checkOut": "2026-07-02",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-01&checkout=2026-07-02&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-07-01&checkout=2026-07-02",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=01072026&CheckOut=02072026&ad=2&ch=0"
       },
       "extraction": {
@@ -2262,7 +2262,7 @@
       "date": "2026-07-02",
       "checkOut": "2026-07-03",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-02&checkout=2026-07-03&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-07-02&checkout=2026-07-03",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=02072026&CheckOut=03072026&ad=2&ch=0"
       },
       "extraction": {
@@ -2342,7 +2342,7 @@
       "date": "2026-07-03",
       "checkOut": "2026-07-04",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-03&checkout=2026-07-04&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-07-03&checkout=2026-07-04",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=03072026&CheckOut=04072026&ad=2&ch=0"
       },
       "extraction": {
@@ -2422,7 +2422,7 @@
       "date": "2026-07-04",
       "checkOut": "2026-07-05",
       "urls": {
-        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=2026-07-04&checkout=2026-07-05&rooms=1&adults=2&children=0",
+        "hm": "https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=2026-07-04&checkout=2026-07-05",
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=04072026&CheckOut=05072026&ad=2&ch=0"
       },
       "extraction": {
