@@ -11,7 +11,7 @@ export const CONFIG = {
       name: 'Hotel Marielena',
       engine: 'cloudbeds',
       urlForDate: (checkIn, checkOut) =>
-        `https://us2.cloudbeds.com/es/reservation/Vk867F?currency=mxn&checkin=${checkIn}&checkout=${checkOut}&rooms=1&adults=2&children=0`,
+        `https://us2.cloudbeds.com/es/reservation/Vk867F/?currency=mxn&checkin=${checkIn}&checkout=${checkOut}`,
       roomAliases: {
         'Suite Patio King': ['Suite Patio King', 'Patio King'],
         'Suite Patio Doble': ['Suite Patio Doble', 'Patio Doble'],
