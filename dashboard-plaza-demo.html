@@ -79,7 +79,7 @@
     }
     .cards{
       display:grid;
-      grid-template-columns:repeat(6,minmax(150px,1fr));
+      grid-template-columns:repeat(5,minmax(160px,1fr));
       gap:18px;
       margin:28px 0;
     }
@@ -190,6 +190,54 @@
       border-color:var(--ecco-green);
       box-shadow:0 8px 18px rgba(23,76,58,.18);
     }
+    
+    .forecast-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(220px,1fr));
+      gap:18px;
+      padding:22px;
+    }
+    .forecast-card{
+      background:#fffaf3;
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:20px;
+      box-shadow:0 12px 28px rgba(23,76,58,.08);
+    }
+    .forecast-title{
+      color:var(--ecco-green);
+      font-size:14px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      font-weight:900;
+      margin-bottom:12px;
+    }
+    .forecast-main{
+      font-size:38px;
+      font-weight:900;
+      color:var(--brown);
+      margin-bottom:4px;
+    }
+    .forecast-metric{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      border-top:1px solid var(--line);
+      padding-top:10px;
+      margin-top:10px;
+      font-size:13px;
+    }
+    .forecast-metric span:first-child{
+      color:var(--muted);
+    }
+    .forecast-metric span:last-child{
+      font-weight:900;
+      color:var(--ink);
+    }
+    @media(max-width:1100px){
+      .forecast-grid{grid-template-columns:1fr}
+    }
+
     @media(max-width:1100px){
       main{padding:30px 20px}
       .cards{grid-template-columns:1fr 1fr}
@@ -213,11 +261,17 @@
     <div class="cards">
       <div class="card"><div class="label">Última extracción</div><div class="value" id="generatedAt">—</div></div>
       <div class="card"><div class="label">Fechas revisadas</div><div class="value" id="daysCount">—</div></div>
-      <div class="card"><div class="label">Tipos HM</div><div class="value" id="roomTypes">—</div></div>
-      <div class="card"><div class="label">HM promedio</div><div class="value" id="hmAvg">—</div></div>
+      <div class="card"><div class="label">HM Tarifa Promedio</div><div class="value" id="hmAvg">—</div></div>
       <div class="card"><div class="label">Ocupación HM</div><div class="value" id="hmOcc">—</div><div class="small" id="hmOccDetail">—</div></div>
       <div class="card"><div class="label">Alertas</div><div class="value" id="alertsCount">—</div></div>
     </div>
+
+    
+    <section style="margin:34px 0;">
+      <h2>Forecast HM 30 / 60 / 90 días</h2>
+      <div class="forecast-grid" id="hmForecastCards"></div>
+      <div class="small" id="hmForecastNote" style="padding:0 24px 20px;color:var(--muted);"></div>
+    </section>
 
     <div class="grid">
       <section>
@@ -327,6 +381,39 @@
       `).join('') : '<div class="alert"><strong>Sin alertas</strong><div class="small">No hay discrepancias relevantes para esta fecha.</div></div>';
     }
 
+    
+    function renderHmForecast(data){
+      const forecast = data.hmForecast;
+      const box = document.getElementById('hmForecastCards');
+      const note = document.getElementById('hmForecastNote');
+      if (!forecast || !box) return;
+
+      const windows = forecast.windows || {};
+      const order = ['30','60','90'];
+
+      box.innerHTML = order.map(k => {
+        const w = windows[k] || {};
+        return `
+          <div class="forecast-card">
+            <div class="forecast-title">Forecast HM · ${k} días</div>
+            <div class="forecast-main">${w.avgOccupancyLabel || '—'}</div>
+            <div class="small">Ocupación promedio estimada</div>
+
+            <div class="forecast-metric"><span>Room nights vendidas</span><span>${w.totalRoomNightsSold ?? '—'}</span></div>
+            <div class="forecast-metric"><span>Disponibles</span><span>${w.totalRoomNightsAvailable ?? '—'}</span></div>
+            <div class="forecast-metric"><span>ADR Cloudbeds promedio</span><span>${w.avgHmPublicRate ? fmt.format(w.avgHmPublicRate) : '—'}</span></div>
+            <div class="forecast-metric"><span>Revenue estimado</span><span>${w.estimatedRoomRevenue ? fmt.format(w.estimatedRoomRevenue) : '—'}</span></div>
+            <div class="forecast-metric"><span>Días alta ocupación</span><span>${w.highOccupancyDays ?? '—'}</span></div>
+            <div class="forecast-metric"><span>Días baja ocupación</span><span>${w.lowOccupancyDays ?? '—'}</span></div>
+          </div>
+        `;
+      }).join('');
+
+      if (note) {
+        note.textContent = forecast.methodology || '';
+      }
+    }
+
     function renderDashboard(data){
       const days = data.days || [];
       if (!days.length) return;
@@ -349,10 +436,8 @@
 
       document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
       document.getElementById('daysCount').textContent = days.length;
-      document.getElementById('roomTypes').textContent = new Set(allRows.map(r => r.hm)).size;
 
-      const hmVals = allRows.map(r => r.hmDirect).filter(v => v != null);
-      const hmAvg = hmVals.length ? hmVals.reduce((a,b)=>a+b,0)/hmVals.length : null;
+      const hmAvg = selectedDay.hmOccupancy?.adr ?? null;
       document.getElementById('hmAvg').textContent = hmAvg ? fmt.format(hmAvg) : '—';
 
       renderDateTabs(days);
@@ -365,6 +450,7 @@
       .then(data => {
         window.__rateData = data;
         renderDashboard(data);
+        renderHmForecast(data);
       })
       .catch(err => {
         document.getElementById('rows').innerHTML = `<tr><td colspan="8">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
