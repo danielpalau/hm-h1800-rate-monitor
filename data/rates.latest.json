@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T20:45:17.510Z",
+  "generatedAt": "2026-06-05T21:53:24.686Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -219,7 +219,7 @@
         "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-06-06&departure=2026-06-07&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
       },
       "extraction": {
-        "hmCandidates": 168,
+        "hmCandidates": 104,
         "h1800Candidates": 76,
         "plazaCandidates": 6
       },
@@ -261,16 +261,16 @@
           "hm": "Suite Standard Doble",
           "inventory": 23,
           "h1800": "Habitación doble",
-          "hmDirect": null,
+          "hmDirect": 2500,
           "h1800Direct": null,
           "diff": null,
           "pct": null,
           "status": "missing_data",
           "plaza": "Deluxe Doble",
           "plazaDirect": 2162,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "diffPlaza": 338,
+          "pctPlaza": 0.15633672525439407,
+          "statusPlaza": "high_discrepancy"
         },
         {
           "date": "2026-06-06",
@@ -3468,5 +3468,5 @@
   "urls": {
     "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
   },
-  "plazaAddedAt": "2026-06-05T20:45:17.550Z"
+  "plazaAddedAt": "2026-06-05T21:53:24.727Z"
 }

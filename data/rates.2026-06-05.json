@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T20:45:17.510Z",
+  "generatedAt": "2026-06-05T21:53:24.686Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -186,7 +186,7 @@
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=06062026&CheckOut=07062026&ad=2&ch=0"
       },
       "extraction": {
-        "hmCandidates": 168,
+        "hmCandidates": 104,
         "h1800Candidates": 76
       },
       "rows": [
@@ -217,7 +217,7 @@
           "hm": "Suite Standard Doble",
           "inventory": 23,
           "h1800": "Habitación doble",
-          "hmDirect": null,
+          "hmDirect": 2500,
           "h1800Direct": null,
           "diff": null,
           "pct": null,
