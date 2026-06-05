@@ -79,7 +79,7 @@
     }
     .cards{
       display:grid;
-      grid-template-columns:repeat(5,minmax(160px,1fr));
+      grid-template-columns:repeat(6,minmax(150px,1fr));
       gap:18px;
       margin:28px 0;
     }
@@ -215,6 +215,7 @@
       <div class="card"><div class="label">Fechas revisadas</div><div class="value" id="daysCount">—</div></div>
       <div class="card"><div class="label">Tipos HM</div><div class="value" id="roomTypes">—</div></div>
       <div class="card"><div class="label">HM promedio</div><div class="value" id="hmAvg">—</div></div>
+      <div class="card"><div class="label">Ocupación HM</div><div class="value" id="hmOcc">—</div><div class="small" id="hmOccDetail">—</div></div>
       <div class="card"><div class="label">Alertas</div><div class="value" id="alertsCount">—</div></div>
     </div>
 
@@ -231,6 +232,7 @@
                 <th>Fecha</th>
                 <th>Habitación HM</th>
                 <th>HM</th>
+                <th>Ocupación HM</th>
                 <th>Hacienda 1800</th>
                 <th>Hotel Plaza</th>
                 <th>Dif. vs H1800</th>
@@ -285,6 +287,10 @@
           <td><div class="room">${r.hm}</div><div class="sub">Hotel Marielena</div></td>
           <td>${money(r.hmDirect)}</td>
           <td>
+            <div class="money">${day.hmOccupancy?.occupancyPctLabel || '—'}</div>
+            <div class="sub">${day.hmOccupancy?.roomsSold ?? '—'}/${day.hmOccupancy?.roomsTotal ?? '—'} ocupadas</div>
+          </td>
+          <td>
             <div class="room">${r.h1800 || '—'}</div>
             <div>${money(r.h1800Direct)}</div>
           </td>
@@ -330,6 +336,17 @@
       const allRows = days.flatMap(d => d.rows || []);
       const selectedDay = days.find(d => d.date === selectedDate) || days[0];
 
+      const occ = selectedDay.hmOccupancy || {};
+      const occLabel = occ.occupancyPctLabel || (occ.occupancyPct != null ? `${Math.round(occ.occupancyPct * 100)}%` : '—');
+      const occDetail = occ.roomsSold != null
+        ? `${occ.roomsSold}/${occ.roomsTotal} ocupadas · ${occ.roomsAvailable} disponibles`
+        : 'Sin dato API';
+
+      const occEl = document.getElementById('hmOcc');
+      const occDetailEl = document.getElementById('hmOccDetail');
+      if (occEl) occEl.textContent = occLabel;
+      if (occDetailEl) occDetailEl.textContent = occDetail;
+
       document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
       document.getElementById('daysCount').textContent = days.length;
       document.getElementById('roomTypes').textContent = new Set(allRows.map(r => r.hm)).size;
@@ -350,7 +367,7 @@
         renderDashboard(data);
       })
       .catch(err => {
-        document.getElementById('rows').innerHTML = `<tr><td colspan="7">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
+        document.getElementById('rows').innerHTML = `<tr><td colspan="8">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
       });
   </script>
 </body>
