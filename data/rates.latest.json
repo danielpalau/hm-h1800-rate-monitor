@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T22:17:16.647Z",
+  "generatedAt": "2026-06-06T22:59:56.966Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -3468,5 +3468,5 @@
   "urls": {
     "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
   },
-  "plazaAddedAt": "2026-06-06T22:17:16.689Z"
+  "plazaAddedAt": "2026-06-06T22:59:57.007Z"
 }
