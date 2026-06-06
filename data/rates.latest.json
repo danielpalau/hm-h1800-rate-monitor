@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T18:03:25.105Z",
+  "generatedAt": "2026-06-06T19:06:46.334Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -955,7 +955,7 @@
           "pct": null,
           "status": "missing_data",
           "plaza": "Junior Suite Doble",
-          "plazaDirect": null,
+          "plazaDirect": 3307,
           "diffPlaza": null,
           "pctPlaza": null,
           "statusPlaza": "missing_data"
@@ -1067,10 +1067,10 @@
           "pct": -0.36363636363636365,
           "status": "high_discrepancy",
           "plaza": "Junior Suite Doble",
-          "plazaDirect": null,
-          "diffPlaza": null,
-          "pctPlaza": null,
-          "statusPlaza": "missing_data"
+          "plazaDirect": 2803,
+          "diffPlaza": -353,
+          "pctPlaza": -0.12593649661077416,
+          "statusPlaza": "high_discrepancy"
         },
         {
           "date": "2026-06-14",
@@ -3468,5 +3468,5 @@
   "urls": {
     "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
   },
-  "plazaAddedAt": "2026-06-06T18:03:25.145Z"
+  "plazaAddedAt": "2026-06-06T19:06:46.378Z"
 }
