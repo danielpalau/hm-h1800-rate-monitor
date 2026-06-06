@@ -234,8 +234,126 @@
       font-weight:900;
       color:var(--ink);
     }
+    
+    .segment-box{
+      margin:0 22px 22px;
+      padding:20px;
+      background:#fffaf3;
+      border:1px solid var(--line);
+      border-radius:18px;
+    }
+    .segment-title{
+      font-weight:900;
+      color:var(--ecco-green);
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      margin-bottom:6px;
+    }
+    .segment-subtitle{
+      color:var(--muted);
+      font-size:13px;
+      margin-bottom:18px;
+    }
+    .segment-chart{
+      display:grid;
+      gap:16px;
+    }
+    .segment-row{
+      display:grid;
+      grid-template-columns:150px 1fr 90px;
+      gap:14px;
+      align-items:center;
+    }
+    .segment-label{
+      font-weight:900;
+      color:var(--brown);
+    }
+    .segment-bar-bg{
+      height:22px;
+      border-radius:999px;
+      background:#efe4d4;
+      overflow:hidden;
+      border:1px solid var(--line);
+    }
+    .segment-bar{
+      height:100%;
+      border-radius:999px;
+      background:var(--ecco-green);
+      min-width:3px;
+    }
+    .segment-value{
+      font-weight:900;
+      color:var(--brown);
+      text-align:right;
+    }
+    .segment-detail{
+      grid-column:2 / 4;
+      color:var(--muted);
+      font-size:12px;
+      margin-top:-8px;
+    }
+
     @media(max-width:1100px){
       .forecast-grid{grid-template-columns:1fr}
+    }
+
+    
+    .segment-box{
+      margin:0 22px 22px;
+      padding:20px;
+      background:#fffaf3;
+      border:1px solid var(--line);
+      border-radius:18px;
+    }
+    .segment-title{
+      font-weight:900;
+      color:var(--ecco-green);
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      margin-bottom:6px;
+    }
+    .segment-subtitle{
+      color:var(--muted);
+      font-size:13px;
+      margin-bottom:18px;
+    }
+    .segment-chart{
+      display:grid;
+      gap:16px;
+    }
+    .segment-row{
+      display:grid;
+      grid-template-columns:150px 1fr 90px;
+      gap:14px;
+      align-items:center;
+    }
+    .segment-label{
+      font-weight:900;
+      color:var(--brown);
+    }
+    .segment-bar-bg{
+      height:22px;
+      border-radius:999px;
+      background:#efe4d4;
+      overflow:hidden;
+      border:1px solid var(--line);
+    }
+    .segment-bar{
+      height:100%;
+      border-radius:999px;
+      background:var(--ecco-green);
+      min-width:3px;
+    }
+    .segment-value{
+      font-weight:900;
+      color:var(--brown);
+      text-align:right;
+    }
+    .segment-detail{
+      grid-column:2 / 4;
+      color:var(--muted);
+      font-size:12px;
+      margin-top:-8px;
     }
 
     @media(max-width:1100px){
@@ -269,7 +387,12 @@
     <section style="margin:34px 0;">
       <h2>Forecast HM 30 / 60 / 90 días</h2>
       <div class="forecast-grid" id="hmForecastCards"></div>
-      <div class="small" id="hmForecastNote" style="padding:0 24px 20px;color:var(--muted);"></div>
+      <div class="small" id="hmForecastNote" style="padding:0 24px 12px;color:var(--muted);"></div>
+      <div class="segment-box">
+        <div class="segment-title">Ocupación HM próximos 90 días por tipo de noche</div>
+        <div class="segment-subtitle">Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves</div>
+        <div id="hmSegmentChart" class="segment-chart"></div>
+      </div>
     </section>
 
     <div class="grid">
@@ -407,6 +530,33 @@
           </div>
         `;
       }).join('');
+
+
+      const segmentChart = document.getElementById('hmSegmentChart');
+      const w90 = windows['90'] || {};
+      const segments = w90.segments || {};
+      if (segmentChart && segments.weekend && segments.weekday) {
+        const rows = [
+          segments.weekend,
+          segments.weekday
+        ];
+
+        segmentChart.innerHTML = rows.map(seg => {
+          const pctValue = Math.round((seg.occupancyPct || 0) * 100);
+          return `
+            <div class="segment-row">
+              <div class="segment-label">${seg.label}</div>
+              <div class="segment-bar-bg">
+                <div class="segment-bar" style="width:${Math.min(pctValue,100)}%"></div>
+              </div>
+              <div class="segment-value">${seg.occupancyPctLabel || '—'}</div>
+              <div class="segment-detail">
+                ${seg.soldRoomNights ?? '—'} room nights vendidas · ${seg.availableRoomNights ?? '—'} disponibles · ${seg.days ?? '—'} noches
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
 
       if (note) {
         note.textContent = forecast.methodology || '';
