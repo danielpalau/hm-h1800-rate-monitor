@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T19:06:46.334Z",
+  "generatedAt": "2026-06-06T22:17:16.647Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -115,7 +115,7 @@
           "hm": "Suite Patio King",
           "inventory": 7,
           "h1800": "Habitación sencilla",
-          "hmDirect": null,
+          "hmDirect": 2950,
           "h1800Direct": null,
           "diff": null,
           "pct": null,
@@ -137,7 +137,7 @@
           "hm": "Suite Standard Doble",
           "inventory": 23,
           "h1800": "Habitación doble",
-          "hmDirect": 2500,
+          "hmDirect": null,
           "h1800Direct": null,
           "diff": null,
           "pct": null,
