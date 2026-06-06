@@ -261,7 +261,7 @@
     <div class="cards">
       <div class="card"><div class="label">Última extracción</div><div class="value" id="generatedAt">—</div></div>
       <div class="card"><div class="label">Fechas revisadas</div><div class="value" id="daysCount">—</div></div>
-      <div class="card"><div class="label">HM Tarifa Promedio</div><div class="value" id="hmAvg">—</div></div>
+      <div class="card"><div class="label">HM Tarifa Pública Promedio</div><div class="value" id="hmAvg">—</div></div>
       <div class="card"><div class="label">Ocupación HM</div><div class="value" id="hmOcc">—</div><div class="small" id="hmOccDetail">—</div></div>
       <div class="card"><div class="label">Alertas</div><div class="value" id="alertsCount">—</div></div>
     </div>
@@ -400,9 +400,9 @@
             <div class="small">Ocupación promedio estimada</div>
 
             <div class="forecast-metric"><span>Room nights vendidas</span><span>${w.totalRoomNightsSold ?? '—'}</span></div>
-            <div class="forecast-metric"><span>Disponibles</span><span>${w.totalRoomNightsAvailable ?? '—'}</span></div>
-            <div class="forecast-metric"><span>ADR Cloudbeds promedio</span><span>${w.avgHmPublicRate ? fmt.format(w.avgHmPublicRate) : '—'}</span></div>
-            <div class="forecast-metric"><span>Revenue estimado</span><span>${w.estimatedRoomRevenue ? fmt.format(w.estimatedRoomRevenue) : '—'}</span></div>
+            <div class="forecast-metric"><span>Room nights disponibles</span><span>${w.totalRoomNightsAvailable ?? '—'}</span></div>
+            <div class="forecast-metric"><span>ADR Cloudbeds pendiente</span><span>${w.avgHmPublicRate ? fmt.format(w.avgHmPublicRate) : '—'}</span></div>
+            <div class="forecast-metric"><span>Revenue OTB pendiente</span><span>${w.estimatedRoomRevenue ? fmt.format(w.estimatedRoomRevenue) : '—'}</span></div>
             <div class="forecast-metric"><span>Días alta ocupación</span><span>${w.highOccupancyDays ?? '—'}</span></div>
             <div class="forecast-metric"><span>Días baja ocupación</span><span>${w.lowOccupancyDays ?? '—'}</span></div>
           </div>
@@ -437,7 +437,11 @@
       document.getElementById('generatedAt').textContent = data.generatedAt ? new Date(data.generatedAt).toLocaleString('es-MX') : '—';
       document.getElementById('daysCount').textContent = days.length;
 
-      const hmAvg = selectedDay.hmOccupancy?.adr ?? null;
+      const selectedRows = selectedDay.rows || [];
+      const hmVals = selectedRows
+        .map(r => r.hmDirect)
+        .filter(v => Number.isFinite(v) && v >= 1000 && v <= 30000);
+      const hmAvg = hmVals.length ? hmVals.reduce((a,b)=>a+b,0)/hmVals.length : null;
       document.getElementById('hmAvg').textContent = hmAvg ? fmt.format(hmAvg) : '—';
 
       renderDateTabs(days);
