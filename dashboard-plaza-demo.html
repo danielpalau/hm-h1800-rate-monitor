@@ -293,6 +293,75 @@
       margin-top:-8px;
     }
 
+    
+    .monthly-segments-wrap{
+      padding:0 22px 22px;
+      overflow:auto;
+    }
+    .monthly-segments-table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      font-size:14px;
+      background:#fffaf3;
+      border:1px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+    }
+    .monthly-segments-table th{
+      background:#fbf4ea;
+      color:var(--muted);
+      text-align:left;
+      padding:14px 16px;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      font-size:11px;
+      border-bottom:1px solid var(--line);
+    }
+    .monthly-segments-table td{
+      padding:16px;
+      border-bottom:1px solid var(--line);
+      vertical-align:middle;
+    }
+    .monthly-segments-table tr:last-child td{
+      border-bottom:none;
+    }
+    .month-name{
+      font-weight:900;
+      color:var(--ecco-green);
+      text-transform:capitalize;
+      white-space:nowrap;
+    }
+    .mini-bar-row{
+      display:grid;
+      grid-template-columns:58px 1fr;
+      gap:10px;
+      align-items:center;
+      min-width:180px;
+    }
+    .mini-bar-value{
+      font-weight:900;
+      color:var(--brown);
+    }
+    .mini-bar-bg{
+      height:14px;
+      background:#efe4d4;
+      border:1px solid var(--line);
+      border-radius:999px;
+      overflow:hidden;
+    }
+    .mini-bar{
+      height:100%;
+      background:var(--ecco-green);
+      border-radius:999px;
+      min-width:2px;
+    }
+    .mini-detail{
+      margin-top:5px;
+      color:var(--muted);
+      font-size:12px;
+    }
+
     @media(max-width:1100px){
       .forecast-grid{grid-template-columns:1fr}
     }
@@ -356,6 +425,75 @@
       margin-top:-8px;
     }
 
+    
+    .monthly-segments-wrap{
+      padding:0 22px 22px;
+      overflow:auto;
+    }
+    .monthly-segments-table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      font-size:14px;
+      background:#fffaf3;
+      border:1px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+    }
+    .monthly-segments-table th{
+      background:#fbf4ea;
+      color:var(--muted);
+      text-align:left;
+      padding:14px 16px;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      font-size:11px;
+      border-bottom:1px solid var(--line);
+    }
+    .monthly-segments-table td{
+      padding:16px;
+      border-bottom:1px solid var(--line);
+      vertical-align:middle;
+    }
+    .monthly-segments-table tr:last-child td{
+      border-bottom:none;
+    }
+    .month-name{
+      font-weight:900;
+      color:var(--ecco-green);
+      text-transform:capitalize;
+      white-space:nowrap;
+    }
+    .mini-bar-row{
+      display:grid;
+      grid-template-columns:58px 1fr;
+      gap:10px;
+      align-items:center;
+      min-width:180px;
+    }
+    .mini-bar-value{
+      font-weight:900;
+      color:var(--brown);
+    }
+    .mini-bar-bg{
+      height:14px;
+      background:#efe4d4;
+      border:1px solid var(--line);
+      border-radius:999px;
+      overflow:hidden;
+    }
+    .mini-bar{
+      height:100%;
+      background:var(--ecco-green);
+      border-radius:999px;
+      min-width:2px;
+    }
+    .mini-detail{
+      margin-top:5px;
+      color:var(--muted);
+      font-size:12px;
+    }
+
     @media(max-width:1100px){
       main{padding:30px 20px}
       .cards{grid-template-columns:1fr 1fr}
@@ -392,6 +530,28 @@
         <div class="segment-title">Ocupación HM próximos 90 días por tipo de noche</div>
         <div class="segment-subtitle">Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves</div>
         <div id="hmSegmentChart" class="segment-chart"></div>
+      </div>
+    </section>
+
+    
+    <section style="margin:34px 0;">
+      <h2>Ocupación HM por mes calendario</h2>
+      <div class="small" style="padding:0 24px 12px;color:var(--muted);">
+        Separación por tipo de noche: Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves.
+      </div>
+      <div class="monthly-segments-wrap">
+        <table class="monthly-segments-table">
+          <thead>
+            <tr>
+              <th>Mes</th>
+              <th>Fin de Semana</th>
+              <th>Entre Semana</th>
+              <th>Total mes</th>
+              <th>Tarifa promedio Cloudbeds</th>
+            </tr>
+          </thead>
+          <tbody id="hmMonthlySegments"></tbody>
+        </table>
       </div>
     </section>
 
@@ -504,6 +664,44 @@
     }
 
     
+    
+    function renderMonthlySegments(data){
+      const tbody = document.getElementById('hmMonthlySegments');
+      if (!tbody) return;
+
+      const rows = data.hmForecast?.monthlyCalendar
+        || data.hmForecast?.windows?.["90"]?.monthlySegments
+        || [];
+
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="5">Sin datos mensuales disponibles.</td></tr>';
+        return;
+      }
+
+      function barCell(segment){
+        const pctValue = Math.round((segment?.occupancyPct || 0) * 100);
+        return `
+          <div class="mini-bar-row">
+            <div class="mini-bar-value">${segment?.occupancyPctLabel || '—'}</div>
+            <div class="mini-bar-bg">
+              <div class="mini-bar" style="width:${Math.min(pctValue,100)}%"></div>
+            </div>
+          </div>
+          <div class="mini-detail">${segment?.soldRoomNights ?? '—'} vendidas · ${segment?.availableRoomNights ?? '—'} disponibles · ${segment?.days ?? '—'} noches</div>
+        `;
+      }
+
+      tbody.innerHTML = rows.map(r => `
+        <tr>
+          <td><div class="month-name">${r.label}</div></td>
+          <td>${barCell(r.weekend)}</td>
+          <td>${barCell(r.weekday)}</td>
+          <td>${barCell(r.total)}</td>
+          <td><strong>${r.avgCloudbedsRateLabel || 'Pendiente'}</strong><div class="mini-detail">Pendiente de rate details real</div></td>
+        </tr>
+      `).join('');
+    }
+
     function renderHmForecast(data){
       const forecast = data.hmForecast;
       const box = document.getElementById('hmForecastCards');
@@ -604,6 +802,7 @@
         window.__rateData = data;
         renderDashboard(data);
         renderHmForecast(data);
+        renderMonthlySegments(data);
       })
       .catch(err => {
         document.getElementById('rows').innerHTML = `<tr><td colspan="8">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
