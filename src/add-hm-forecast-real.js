@@ -3,10 +3,11 @@ import fs from 'node:fs/promises';
 const API_KEY = process.env.CLOUDBEDS_API_KEY;
 const PROPERTY_ID = process.env.CLOUDBEDS_PROPERTY_ID || "161682624172278";
 const TOTAL_ROOMS = Number(process.env.HM_TOTAL_ROOMS || 38);
+const FORECAST_DAYS = Number(process.env.HM_FORECAST_DAYS || 90);
 const RATES_PATH = "data/rates.latest.json";
 
 if (!API_KEY) {
-  console.warn("Missing CLOUDBEDS_API_KEY. Skipping Cloudbeds occupancy.");
+  console.warn("Missing CLOUDBEDS_API_KEY. Skipping HM forecast.");
   process.exit(0);
 }
 
@@ -25,18 +26,25 @@ function addDays(dateStr, days) {
   return d.toISOString().slice(0, 10);
 }
 
-function nightsBetween(start, end) {
-  if (!start || !end) return null;
-  const a = new Date(start + "T12:00:00");
-  const b = new Date(end + "T12:00:00");
-  const nights = Math.round((b - a) / (1000 * 60 * 60 * 24));
-  return nights > 0 ? nights : null;
+function avg(values) {
+  const nums = values.filter(v => Number.isFinite(v));
+  return nums.length ? nums.reduce((a, b) => a + b, 0) / nums.length : null;
+}
+
+function sum(values) {
+  return values.filter(v => Number.isFinite(v)).reduce((a, b) => a + b, 0);
+}
+
+function pct(v) {
+  return Number.isFinite(v) ? Math.round(v * 1000) / 10 : null;
 }
 
 function overlapsNight(reservation, date) {
   const start = reservation?.startDate;
   const end = reservation?.endDate;
   if (!start || !end) return false;
+
+  // Ocupa la noche si llegó antes o ese día, y sale después de ese día.
   return start <= date && end > date;
 }
 
@@ -129,15 +137,14 @@ async function fetchReservationsForWindow(firstDate, lastDate) {
     if (data.length < pageSize || newItems === 0) break;
 
     pageNumber++;
-    if (pageNumber > 80) break;
+    if (pageNumber > 100) break;
   }
 
   return reservationsById;
 }
 
-function calculateOccupancy(assignments, reservationsById, date) {
+function calculateDayForecast(assignments, reservationsById, date) {
   const occupiedRooms = new Map();
-  const reservationsCounted = new Map();
 
   for (const reservationAssignment of assignments) {
     const reservationID = reservationAssignment.reservationID;
@@ -159,8 +166,6 @@ function calculateOccupancy(assignments, reservationsById, date) {
         endDate: reservation.endDate
       });
     }
-
-    reservationsCounted.set(reservationID, reservation);
   }
 
   const roomsSoldRaw = occupiedRooms.size;
@@ -174,89 +179,131 @@ function calculateOccupancy(assignments, reservationsById, date) {
     byRoomType[key] = (byRoomType[key] || 0) + 1;
   }
 
-  let revenueOTB = 0;
+  let status = "normal";
+  let recommendation = "Mantener monitoreo";
 
-  for (const reservation of reservationsCounted.values()) {
-    const balance = Number(reservation.balance);
-    const nights = nightsBetween(reservation.startDate, reservation.endDate);
-
-    if (Number.isFinite(balance) && nights) {
-      // Prorrateo simple: balance total / noches de estancia.
-      // Si una reserva tiene varias habitaciones, el balance suele ser total de la reserva.
-      revenueOTB += balance / nights;
+  if (Number.isFinite(occupancyPct)) {
+    if (occupancyPct >= 0.85) {
+      status = "alta_ocupacion";
+      recommendation = "Proteger inventario / revisar alza tarifaria";
+    } else if (occupancyPct <= 0.35) {
+      status = "baja_ocupacion";
+      recommendation = "Impulsar demanda / revisar campañas";
+    } else if (occupancyPct >= 0.65) {
+      status = "buena_ocupacion";
+      recommendation = "Monitorear pickup / posible alza moderada";
     }
   }
 
-  const adr = roomsSold > 0 ? revenueOTB / roomsSold : null;
-  const revpar = TOTAL_ROOMS > 0 ? revenueOTB / TOTAL_ROOMS : null;
-
   return {
+    date,
     roomsTotal: TOTAL_ROOMS,
     roomsSold,
     roomsSoldRaw,
     roomsAvailable,
     occupancyPct,
     occupancyPctLabel: occupancyPct == null ? null : `${Math.round(occupancyPct * 100)}%`,
-    adr: Number.isFinite(adr) ? Math.round(adr) : null,
-    revpar: Number.isFinite(revpar) ? Math.round(revpar) : null,
-    revenueOTB: Number.isFinite(revenueOTB) ? Math.round(revenueOTB) : null,
-    adrSource: "Cloudbeds API balance prorated by stay night",
-    byRoomType
+    byRoomType,
+    status,
+    recommendation
+  };
+}
+
+function buildWindow(days, windowDays) {
+  const selected = days.slice(0, windowDays);
+
+  const occupancies = selected.map(d => d.occupancyPct).filter(v => Number.isFinite(v));
+  const sold = selected.map(d => d.roomsSold).filter(v => Number.isFinite(v));
+  const available = selected.map(d => d.roomsAvailable).filter(v => Number.isFinite(v));
+
+  return {
+    windowDays,
+    daysIncluded: selected.length,
+    firstDate: selected[0]?.date || null,
+    lastDate: selected[selected.length - 1]?.date || null,
+
+    avgOccupancyPct: pct(avg(occupancies)),
+    avgOccupancyLabel: avg(occupancies) == null ? null : `${Math.round(avg(occupancies) * 100)}%`,
+
+    totalRoomNightsSold: sum(sold),
+    totalRoomNightsAvailable: sum(available),
+
+    highOccupancyDays: selected.filter(d => (d.occupancyPct ?? 0) >= 0.85).length,
+    mediumHighOccupancyDays: selected.filter(d => {
+      const o = d.occupancyPct;
+      return Number.isFinite(o) && o >= 0.65 && o < 0.85;
+    }).length,
+    lowOccupancyDays: selected.filter(d => {
+      const o = d.occupancyPct;
+      return Number.isFinite(o) && o <= 0.35;
+    }).length,
+
+    topHighOccupancyDates: selected
+      .filter(d => d.status === "alta_ocupacion")
+      .slice(0, 10),
+
+    topLowOccupancyDates: selected
+      .filter(d => d.status === "baja_ocupacion")
+      .slice(0, 10),
+
+    daysDetail: selected
   };
 }
 
 const rates = JSON.parse(await fs.readFile(RATES_PATH, "utf8"));
-const days = rates.days || [];
+const baseDate = rates.days?.[0]?.date || new Date().toISOString().slice(0, 10);
+const lastDate = addDays(baseDate, FORECAST_DAYS - 1);
 
-if (!days.length) {
-  console.warn("No days found in rates.latest.json");
-  process.exit(0);
-}
+console.log(`Building real HM forecast ${baseDate} to ${lastDate}...`);
+console.log(`Fetching Cloudbeds reservations...`);
 
-const firstDate = days[0].date;
-const lastDate = days[days.length - 1].date;
-
-console.log(`Fetching Cloudbeds reservations for ${firstDate} to ${lastDate}...`);
 let reservationsById = new Map();
 
 try {
-  reservationsById = await fetchReservationsForWindow(firstDate, lastDate);
+  reservationsById = await fetchReservationsForWindow(baseDate, lastDate);
   console.log(`Reservations loaded: ${reservationsById.size}`);
 } catch (err) {
-  console.warn(`Cloudbeds reservations fetch failed. Continuing without occupancy. ${err.message}`);
+  console.warn(`Cloudbeds reservations fetch failed for HM forecast. Continuing with empty forecast data. ${err.message}`);
 }
 
-rates.sources = {
-  ...(rates.sources || {}),
-  cloudbedsOccupancy: "Cloudbeds API getReservationAssignments + getReservations overnight filter"
-};
+const forecastDays = [];
 
-rates.cloudbedsOccupancyAddedAt = new Date().toISOString();
-
-for (const day of days) {
-  const date = day.date;
-  console.log(`Adding Cloudbeds occupancy ${date}...`);
+for (let i = 0; i < FORECAST_DAYS; i++) {
+  const date = addDays(baseDate, i);
+  console.log(`Forecast HM ${date}...`);
 
   try {
     const assignments = await fetchAssignments(date);
-    day.hmOccupancy = calculateOccupancy(assignments, reservationsById, date);
+    forecastDays.push(calculateDayForecast(assignments, reservationsById, date));
   } catch (err) {
-    day.hmOccupancy = {
-      error: err.message,
+    forecastDays.push({
+      date,
       roomsTotal: TOTAL_ROOMS,
       roomsSold: null,
       roomsSoldRaw: null,
       roomsAvailable: null,
       occupancyPct: null,
       occupancyPctLabel: null,
-      adr: null,
-      revpar: null,
-      revenueOTB: null,
-      byRoomType: {}
-    };
+      byRoomType: {},
+      status: "error",
+      recommendation: "Error consultando Cloudbeds",
+      error: err.message
+    });
   }
 }
 
+rates.hmForecast = {
+  generatedAt: new Date().toISOString(),
+  demoMode: false,
+  source: "Cloudbeds API",
+  methodology: "Forecast interno real de Hotel Marielena basado en ocupación futura de Cloudbeds. No incluye comp set. ADR y revenue quedan pendientes hasta conectar rate details real.",
+  windows: {
+    "30": buildWindow(forecastDays, 30),
+    "60": buildWindow(forecastDays, 60),
+    "90": buildWindow(forecastDays, 90)
+  }
+};
+
 await fs.writeFile(RATES_PATH, JSON.stringify(rates, null, 2));
 
-console.log(`Done. Updated ${RATES_PATH} with corrected Cloudbeds occupancy + ADR.`);
+console.log("Done. Added real HM forecast 30/60/90 to data/rates.latest.json");
