@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "install-browsers": "playwright install --with-deps chromium",
-    "scrape": "npm run scrape:base && node src/add-plaza-to-latest.js && node src/add-cloudbeds-occupancy.js && node src/add-hm-forecast-real.js && node src/add-hm-forecast-segments.js",
+    "scrape": "npm run scrape:base && node src/add-plaza-to-latest.js && node src/add-cloudbeds-occupancy.js && node src/add-hm-forecast-real.js && node src/add-hm-forecast-segments.js && node src/add-hm-calendar-monthly.js",
     "serve": "npx http-server . -p 8080",
     "scrape:base": "node src/scrape-rates.js"
   },
