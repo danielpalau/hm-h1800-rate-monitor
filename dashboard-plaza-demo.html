@@ -537,7 +537,7 @@
     <section style="margin:34px 0;">
       <h2>Ocupación HM por mes calendario</h2>
       <div class="small" style="padding:0 24px 12px;color:var(--muted);">
-        Histórico del año calendario actual: enero al mes en curso. Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves.
+        Histórico del año calendario actual: enero al mes en curso. Histórico del año calendario actual: enero al mes en curso. Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves.
       </div>
       <div class="monthly-segments-wrap">
         <table class="monthly-segments-table">
@@ -669,10 +669,7 @@
       const tbody = document.getElementById('hmMonthlySegments');
       if (!tbody) return;
 
-      const rows = data.hmCalendarMonthly?.months
-        || data.hmForecast?.monthlyCalendar
-        || data.hmForecast?.windows?.["90"]?.monthlySegments
-        || [];
+      const rows = data.hmCalendarMonthly?.months || [];
 
       if (!rows.length) {
         tbody.innerHTML = '<tr><td colspan="5">Sin datos mensuales disponibles.</td></tr>';
