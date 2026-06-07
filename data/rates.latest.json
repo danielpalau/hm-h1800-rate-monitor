@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T00:29:22.973Z",
+  "generatedAt": "2026-06-07T04:58:54.050Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -780,7 +780,7 @@
       },
       "extraction": {
         "hmCandidates": 141,
-        "h1800Candidates": 117,
+        "h1800Candidates": 97,
         "plazaCandidates": 6
       },
       "rows": [
@@ -790,10 +790,10 @@
           "inventory": 7,
           "h1800": "Habitación sencilla",
           "hmDirect": 2950,
-          "h1800Direct": 3153,
-          "diff": -203,
-          "pct": -0.06438312718046305,
-          "status": "ok",
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": "Superior King",
           "plazaDirect": 3178,
           "diffPlaza": -228,
@@ -870,10 +870,10 @@
           "inventory": 1,
           "h1800": "Habitación sencilla",
           "hmDirect": 2800,
-          "h1800Direct": 3153,
-          "diff": -353,
-          "pct": -0.11195686647637171,
-          "status": "ok",
+          "h1800Direct": null,
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": "Superior Doble",
           "plazaDirect": null,
           "diffPlaza": null,
@@ -3468,5 +3468,5 @@
   "urls": {
     "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
   },
-  "plazaAddedAt": "2026-06-07T00:29:23.021Z"
+  "plazaAddedAt": "2026-06-07T04:58:54.089Z"
 }
