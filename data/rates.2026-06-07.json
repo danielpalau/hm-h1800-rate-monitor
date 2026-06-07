@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T04:58:54.050Z",
+  "generatedAt": "2026-06-07T17:14:56.374Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -2106,7 +2106,7 @@
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=02072026&CheckOut=03072026&ad=2&ch=0"
       },
       "extraction": {
-        "hmCandidates": 165,
+        "hmCandidates": 152,
         "h1800Candidates": 132
       },
       "rows": [
@@ -2170,11 +2170,11 @@
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 1810,
+          "hmDirect": null,
           "h1800Direct": 2939,
-          "diff": -1129,
-          "pct": -0.3841442667574005,
-          "status": "high_discrepancy"
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
         }
       ]
     },
@@ -2186,7 +2186,7 @@
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=03072026&CheckOut=04072026&ad=2&ch=0"
       },
       "extraction": {
-        "hmCandidates": 118,
+        "hmCandidates": 168,
         "h1800Candidates": 132
       },
       "rows": [
@@ -2239,22 +2239,22 @@
           "hm": "Master Suite",
           "inventory": 2,
           "h1800": "Suite Gobernador cama king",
-          "hmDirect": 4900,
+          "hmDirect": null,
           "h1800Direct": 5527,
-          "diff": -627,
-          "pct": -0.11344309752125928,
-          "status": "ok"
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
         },
         {
           "date": "2026-07-03",
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 2800,
+          "hmDirect": null,
           "h1800Direct": 3635,
-          "diff": -835,
-          "pct": -0.2297111416781293,
-          "status": "high_discrepancy"
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
         }
       ]
     },
@@ -2266,7 +2266,7 @@
         "h1800": "https://book.omnibees.com/hotelresults?c=9446&q=17650&currencyId=66&lang=es-ES&NRooms=1&CheckIn=04072026&CheckOut=05072026&ad=2&ch=0"
       },
       "extraction": {
-        "hmCandidates": 118,
+        "hmCandidates": 168,
         "h1800Candidates": 132
       },
       "rows": [
@@ -2319,22 +2319,22 @@
           "hm": "Master Suite",
           "inventory": 2,
           "h1800": "Suite Gobernador cama king",
-          "hmDirect": 4900,
+          "hmDirect": null,
           "h1800Direct": 5527,
-          "diff": -627,
-          "pct": -0.11344309752125928,
-          "status": "ok"
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
         },
         {
           "date": "2026-07-04",
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 2800,
+          "hmDirect": null,
           "h1800Direct": 3635,
-          "diff": -835,
-          "pct": -0.2297111416781293,
-          "status": "high_discrepancy"
+          "diff": null,
+          "pct": null,
+          "status": "missing_data"
         }
       ]
     },

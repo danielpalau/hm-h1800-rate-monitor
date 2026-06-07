@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T04:58:54.050Z",
+  "generatedAt": "2026-06-07T17:14:56.374Z",
   "source": "live_scraper",
   "hotels": {
     "hm": "Hotel Marielena",
@@ -2907,7 +2907,7 @@
         "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-07-02&departure=2026-07-03&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
       },
       "extraction": {
-        "hmCandidates": 165,
+        "hmCandidates": 152,
         "h1800Candidates": 132,
         "plazaCandidates": 6
       },
@@ -2997,16 +2997,16 @@
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 1810,
+          "hmDirect": null,
           "h1800Direct": 2939,
-          "diff": -1129,
-          "pct": -0.3841442667574005,
-          "status": "high_discrepancy",
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": "Superior Doble",
           "plazaDirect": 2693,
-          "diffPlaza": -883,
-          "pctPlaza": -0.3278871147419235,
-          "statusPlaza": "high_discrepancy"
+          "diffPlaza": null,
+          "pctPlaza": null,
+          "statusPlaza": "missing_data"
         }
       ]
     },
@@ -3019,7 +3019,7 @@
         "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-07-03&departure=2026-07-04&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
       },
       "extraction": {
-        "hmCandidates": 118,
+        "hmCandidates": 168,
         "h1800Candidates": 132,
         "plazaCandidates": 6
       },
@@ -3093,11 +3093,11 @@
           "hm": "Master Suite",
           "inventory": 2,
           "h1800": "Suite Gobernador cama king",
-          "hmDirect": 4900,
+          "hmDirect": null,
           "h1800Direct": 5527,
-          "diff": -627,
-          "pct": -0.11344309752125928,
-          "status": "ok",
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": null,
           "plazaDirect": null,
           "diffPlaza": null,
@@ -3109,16 +3109,16 @@
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 2800,
+          "hmDirect": null,
           "h1800Direct": 3635,
-          "diff": -835,
-          "pct": -0.2297111416781293,
-          "status": "high_discrepancy",
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": "Superior Doble",
           "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "diffPlaza": null,
+          "pctPlaza": null,
+          "statusPlaza": "missing_data"
         }
       ]
     },
@@ -3131,7 +3131,7 @@
         "plaza": "https://booking.zaviaerp.com/api/room-types?hotel_id=4cienegas&lang=es&arrival=2026-07-04&departure=2026-07-05&adults=2&children=0&infants=0&promotion_slug=&slug=&coupon=&currency=MXN&google=0&adType=0&mobile=false"
       },
       "extraction": {
-        "hmCandidates": 118,
+        "hmCandidates": 168,
         "h1800Candidates": 132,
         "plazaCandidates": 6
       },
@@ -3205,11 +3205,11 @@
           "hm": "Master Suite",
           "inventory": 2,
           "h1800": "Suite Gobernador cama king",
-          "hmDirect": 4900,
+          "hmDirect": null,
           "h1800Direct": 5527,
-          "diff": -627,
-          "pct": -0.11344309752125928,
-          "status": "ok",
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": null,
           "plazaDirect": null,
           "diffPlaza": null,
@@ -3221,16 +3221,16 @@
           "hm": "Handicap",
           "inventory": 1,
           "h1800": "Habitación sencilla",
-          "hmDirect": 2800,
+          "hmDirect": null,
           "h1800Direct": 3635,
-          "diff": -835,
-          "pct": -0.2297111416781293,
-          "status": "high_discrepancy",
+          "diff": null,
+          "pct": null,
+          "status": "missing_data",
           "plaza": "Superior Doble",
           "plazaDirect": 3178,
-          "diffPlaza": -378,
-          "pctPlaza": -0.11894273127753303,
-          "statusPlaza": "high_discrepancy"
+          "diffPlaza": null,
+          "pctPlaza": null,
+          "statusPlaza": "missing_data"
         }
       ]
     },
@@ -3468,5 +3468,5 @@
   "urls": {
     "plazaBase": "https://rbe.zaviaerp.com/hotel/4cienegas?lang=es&currency=MXN"
   },
-  "plazaAddedAt": "2026-06-07T04:58:54.089Z"
+  "plazaAddedAt": "2026-06-07T17:14:56.416Z"
 }
