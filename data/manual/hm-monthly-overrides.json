@@ -1,0 +1,28 @@
+{
+  "2026-01": {
+    "source": "Manual histórico pre-Cloudbeds",
+    "label": "enero 2026",
+    "weekend": {
+      "soldRoomNights": 75,
+      "totalRoomNights": 380
+    },
+    "weekday": {
+      "soldRoomNights": 85,
+      "totalRoomNights": 798
+    },
+    "avgRate": 2292.16
+  },
+  "2026-02": {
+    "source": "Manual histórico pre-Cloudbeds",
+    "label": "febrero 2026",
+    "weekend": {
+      "soldRoomNights": 192,
+      "totalRoomNights": 304
+    },
+    "weekday": {
+      "soldRoomNights": 131,
+      "totalRoomNights": 620
+    },
+    "avgRate": 2291.91
+  }
+}

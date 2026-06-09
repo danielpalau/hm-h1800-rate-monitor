@@ -519,6 +519,16 @@
       <div class="card"><div class="label">HM Tarifa Pública Promedio Hoy</div><div class="value" id="hmAvg">—</div></div>
       <div class="card"><div class="label">Ocupación HM Hoy</div><div class="value" id="hmOcc">—</div><div class="small" id="hmOccDetail">—</div></div>
       <div class="card"><div class="label">Alertas Hoy</div><div class="value" id="alertsCount">—</div></div>
+      <div class="card">
+        <div class="label">TP Acumulada 2026</div>
+        <div class="value" id="ytdAvgRate2026">—</div>
+        <div class="muted">Ene-feb manual · Mar+ Cloudbeds</div>
+      </div>
+      <div class="card">
+        <div class="label">OCC HM Acumulada 2026</div>
+        <div class="value" id="ytdOcc2026">—</div>
+        <div class="muted" id="ytdOccDetail2026">Ene-feb manual · Mar+ Cloudbeds</div>
+      </div>
     </div>
 
     
@@ -527,15 +537,16 @@
       <div class="forecast-grid" id="hmForecastCards"></div>
       <div class="small" id="hmForecastNote" style="padding:0 24px 12px;color:var(--muted);"></div>
       <div class="segment-box">
-        <div class="segment-title">Ocupación HM Hoy próximos 90 días por tipo de noche</div>
+        <div class="segment-title">Ocupación HM próximos 90 días</div>
         <div class="segment-subtitle">Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves</div>
         <div id="hmSegmentChart" class="segment-chart"></div>
-      </div>
+
+</div>
     </section>
 
     
     <section style="margin:34px 0;">
-      <h2>Ocupación HM Hoy por mes calendario</h2>
+      <h2>Ocupación HM Acumulada por mes calendario</h2>
       <div class="small" style="padding:0 24px 12px;color:var(--muted);">
         Histórico del año calendario actual: enero al mes en curso. Histórico del año calendario actual: enero al mes en curso. Fin de Semana = viernes y sábado · Entre Semana = domingo a jueves.
       </div>
@@ -597,7 +608,12 @@
 
     let selectedDate = null;
 
-    function renderDateTabs(days){
+    
+function getHmYtd2026(data) {
+  return data?.hmCalendarMonthly?.ytd2026 || null;
+}
+
+function renderDateTabs(days){
       const tabs = document.getElementById('dateTabs');
       tabs.innerHTML = days.map(d => {
         const label = dateFmt.format(new Date(d.date + 'T12:00:00'));
@@ -806,5 +822,40 @@
         document.getElementById('rows').innerHTML = `<tr><td colspan="8">Error cargando data/rates.latest.json: ${err.message}</td></tr>`;
       });
   </script>
+
+<script>
+async function hydrateYtd2026Cards() {
+  try {
+    const res = await fetch("data/rates.latest.json?v=" + Date.now());
+    const data = await res.json();
+    const ytd = data?.hmCalendarMonthly?.ytd2026;
+
+    const tpEl = document.getElementById("ytdAvgRate2026");
+    const occEl = document.getElementById("ytdOcc2026");
+    const detailEl = document.getElementById("ytdOccDetail2026");
+
+    if (!ytd) {
+      if (tpEl) tpEl.textContent = "Pendiente";
+      if (occEl) occEl.textContent = "Pendiente";
+      if (detailEl) detailEl.textContent = "Ene-feb manual · Mar+ Cloudbeds";
+      return;
+    }
+
+    if (tpEl) tpEl.textContent = ytd.avgRateLabel || "Pendiente";
+    if (occEl) occEl.textContent = ytd.occupancyPctLabel || "Pendiente";
+
+    if (detailEl) {
+      const sold = ytd.totalSoldRoomNights ?? 0;
+      const total = ytd.totalRoomNights ?? 0;
+      detailEl.textContent = `Ene-feb manual · Mar+ Cloudbeds · ${sold}/${total} room nights`;
+    }
+  } catch (err) {
+    console.warn("No pude cargar KPIs acumulados 2026", err);
+  }
+}
+
+hydrateYtd2026Cards();
+</script>
+
 </body>
 </html>
