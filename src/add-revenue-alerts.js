@@ -72,9 +72,9 @@ function buildMarketAlert(day, row) {
     category,
     categoryLabel: categoryLabel(category),
     occupancyPct: null,
-    occupancyPctLabel: "Sin dato Cloudbeds",
+    occupancyPctLabel: "No integrado en esta alerta",
     pickupPct: null,
-    pickupPctLabel: "Sin dato Cloudbeds",
+    pickupPctLabel: "No integrado en esta alerta",
     baseRate: marketRate,
     baseRateLabel: money(marketRate),
     currentRate: hmRate,
@@ -122,7 +122,7 @@ alerts.sort((a, b) => {
 data.revenueAlerts = {
   generatedAt: new Date().toISOString(),
   mode: "comparativo mercado",
-  note: "No se encontraron campos de ocupacion ni pick up en rates.latest.json. Estas alertas usan comparativo HM vs H1800/Plaza como respaldo hasta que Cloudbeds agregue ocupacion/pick up por fecha.",
+  note: "Alertas calculadas por comparativo tarifario HM vs mercado. La ocupacion y el pick up por fecha se integraran cuando esten disponibles en el flujo diario.",
   summary: summarize(alerts),
   alerts
 };
